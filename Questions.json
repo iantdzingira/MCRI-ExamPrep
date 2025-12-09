@@ -1,0 +1,3564 @@
+[
+    {
+        "id": 1,
+        "type": "multiple-choice",
+        "topic": "Xcode Navigation & Debugging",
+        "question": "Which Xcode feature allows you to pause program execution and inspect variable values at runtime?",
+        "options": ["Interface Builder", "Breakpoints", "Document Outline", "Asset Catalog"],
+        "answer": "Breakpoints"
+    },
+    {
+        "id": 2,
+        "type": "true-false",
+        "topic": "SwiftUI",
+        "question": "In SwiftUI, @State property wrappers can only be used with value types, not reference types.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 3,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What will the output be for the following Swift code?",
+        "code": "struct Car {\n\tvar model: String\n\tvar year: Int\n\t\n\tinit() {\n\t\tself.model = \"Default\"\n\t\tself.year = 2025\n\t}\n}\n\nlet c = Car()\nprint(c.model, c.year)",
+        "answer": "Default 2025"
+    },
+    {
+        "id": 4,
+        "type": "drag-and-drop",
+        "topic": "Swift Language Usage",
+        "question": "Drag the correct items to the corresponding placeholders.",
+        "draggableItems": ["func", "var", "let", "class"],
+        "dropZones": [
+            {"placeholder": "Used to declare a constant.", "correctItem": "let"},
+            {"placeholder": "Used to declare a function.", "correctItem": "func"},
+            {"placeholder": "Used to declare a variable.", "correctItem": "var"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 5,
+        "type": "fill-in",
+        "topic": "Swift Language Usage",
+        "question": "The Swift keyword used to safely unwrap an optional value with a default fallback is ____________.",
+        "answer": "nil-coalescing"
+    },
+    {
+        "id": 6,
+        "type": "drag-and-drop",
+        "topic": "Swift Language Usage",
+        "question": "Match the Swift collection type with its characteristics:",
+        "draggableItems": ["Array", "Dictionary", "Set", "Tuple"],
+        "dropZones": [
+            {"placeholder": "Unordered collection of unique elements.", "correctItem": "Set"},
+            {"placeholder": "Key-value pairs with O(1) average lookup.", "correctItem": "Dictionary"},
+            {"placeholder": "Ordered collection with integer indices.", "correctItem": "Array"},
+            {"placeholder": "Fixed-size, heterogeneous grouping.", "correctItem": "Tuple"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 7,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which Swift access control level allows access only within the same module and from subclasses?",
+        "options": ["private", "fileprivate", "internal", "open"],
+        "answer": "open"
+    },
+    {
+        "id": 8,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "A Swift class can inherit from multiple parent classes (multiple inheritance).",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 9,
+        "type": "fill-in",
+        "topic": "SwiftUI",
+        "question": "In SwiftUI, the property wrapper used to share data across an entire view hierarchy is ____________.",
+        "answer": "@Environment"
+    },
+    {
+        "id": 10,
+        "type": "multiple-choice",
+        "topic": "Xcode Navigation & Debugging",
+        "question": "Which debugging technique allows you to monitor variable changes without pausing execution?",
+        "options": ["Breakpoint", "Watchpoint", "NSLog", "Assertion"],
+        "answer": "Watchpoint"
+    },
+    {
+        "id": 11,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "Swift's 'guard' statement must always contain an 'else' clause that exits the current scope.",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "id": 12,
+        "type": "fill-in",
+        "topic": "SwiftUI",
+        "question": "The design pattern where a view's state is determined by a single source of truth is called ____________.",
+        "answer": "Single Source of Truth"
+    },
+    {
+        "id": 13,
+        "type": "drag-and-drop",
+        "topic": "SwiftUI",
+        "question": "Match the SwiftUI container views with their primary purposes:",
+        "draggableItems": ["HStack", "VStack", "ZStack", "LazyVGrid"],
+        "dropZones": [
+            {"placeholder": "Arranges views horizontally.", "correctItem": "HStack"},
+            {"placeholder": "Arranges views vertically.", "correctItem": "VStack"},
+            {"placeholder": "Overlays views with depth.", "correctItem": "ZStack"},
+            {"placeholder": "Creates a grid with lazy loading.", "correctItem": "LazyVGrid"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 14,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which Swift feature prevents data races by ensuring exclusive access to memory?",
+        "options": ["ARC", "Copy-on-Write", "Exclusivity Enforcement", "Memory Safety"],
+        "answer": "Exclusivity Enforcement"
+    },
+    {
+        "id": 15,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "In Swift, computed properties can have property observers (willSet/didSet).",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 16,
+        "type": "fill-in",
+        "topic": "Swift Language Usage",
+        "question": "The Swift protocol that enables value types to support mutation within methods is ____________.",
+        "answer": "mutating"
+    },
+    {
+        "id": 17,
+        "type": "multiple-choice",
+        "topic": "SwiftUI",
+        "question": "Which SwiftUI modifier creates a navigation hierarchy without a NavigationView?",
+        "options": ["NavigationLink", "NavigationStack", "NavigationSplitView", ".navigationDestination"],
+        "answer": "NavigationStack"
+    },
+    {
+        "id": 18,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "Swift's 'defer' statement executes its code block when the function returns, regardless of how it returns.",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "id": 19,
+        "type": "fill-in",
+        "topic": "Xcode Navigation & Debugging",
+        "question": "The Xcode panel that shows runtime errors and debug output is called the ____________.",
+        "answer": "Console"
+    },
+    {
+        "id": 20,
+        "type": "drag-and-drop",
+        "topic": "Swift Language Usage",
+        "question": "Match the Swift error handling constructs with their purposes:",
+        "draggableItems": ["try", "try?", "try!", "catch"],
+        "dropZones": [
+            {"placeholder": "Converts error to optional (returns nil on error).", "correctItem": "try?"},
+            {"placeholder": "Propagates errors to calling scope.", "correctItem": "try"},
+            {"placeholder": "Force unwrap that crashes on error.", "correctItem": "try!"},
+            {"placeholder": "Handles specific error types.", "correctItem": "catch"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 21,
+        "type": "multiple-choice",
+        "topic": "SwiftUI",
+        "question": "Which SwiftUI property wrapper observes changes to an ObservableObject?",
+        "options": ["@Observed", "@ObservableObject", "@StateObject", "@Published"],
+        "answer": "@StateObject"
+    },
+    {
+        "id": 22,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "Swift's 'inout' parameters can be used with both value types and reference types.",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "id": 23,
+        "type": "fill-in",
+        "topic": "Swift Language Usage",
+        "question": "The Swift feature that allows extending existing types without subclassing is called ____________.",
+        "answer": "extensions"
+    },
+    {
+        "id": 24,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which memory management issue occurs when two objects hold strong references to each other?",
+        "options": ["Memory Leak", "Retain Cycle", "Dangling Pointer", "Wild Pointer"],
+        "answer": "Retain Cycle"
+    },
+    {
+        "id": 25,
+        "type": "true-false",
+        "topic": "SwiftUI",
+        "question": "In SwiftUI, a View's body property can return multiple views without a container.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 26,
+        "type": "fill-in",
+        "topic": "Swift Language Usage",
+        "question": "The Swift operator used for type casting that returns nil if the cast fails is ____________.",
+        "answer": "as?"
+    },
+    {
+        "id": 27,
+        "type": "drag-and-drop",
+        "topic": "Swift Language Usage",
+        "question": "Match the Swift concurrency concepts with their descriptions:",
+        "draggableItems": ["async", "await", "Task", "Actor"],
+        "dropZones": [
+            {"placeholder": "Marks a function that performs asynchronous work.", "correctItem": "async"},
+            {"placeholder": "Suspends execution until async operation completes.", "correctItem": "await"},
+            {"placeholder": "Reference type that isolates mutable state.", "correctItem": "Actor"},
+            {"placeholder": "Unit of async work that can be cancelled.", "correctItem": "Task"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 28,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which Swift collection provides O(1) average case for insertions, deletions, and lookups?",
+        "options": ["Array", "Dictionary", "Set", "All of the above"],
+        "answer": "Dictionary"
+    },
+    {
+        "id": 29,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "Swift's 'where' clause in generic constraints can only be used with protocol conformance.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 30,
+        "type": "fill-in",
+        "topic": "SwiftUI",
+        "question": "The design principle where UI updates automatically when data changes is called ____________.",
+        "answer": "Reactive Programming"
+    },
+    {
+        "id": 31,
+        "type": "multiple-choice",
+        "topic": "Xcode Navigation & Debugging",
+        "question": "Which Xcode feature tracks memory usage and identifies leaks?",
+        "options": ["Debug Navigator", "Instruments", "Console", "Memory Graph"],
+        "answer": "Instruments"
+    },
+    {
+        "id": 32,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "In Swift, a 'lazy' property is initialized the first time it's accessed, even from multiple threads simultaneously.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 33,
+        "type": "fill-in",
+        "topic": "Swift Language Usage",
+        "question": "The Swift protocol that enables custom types to be used in 'for-in' loops is ____________.",
+        "answer": "Sequence"
+    },
+    {
+        "id": 34,
+        "type": "drag-and-drop",
+        "topic": "SwiftUI",
+        "question": "Match the SwiftUI view modifiers with their functions:",
+        "draggableItems": [".padding()", ".frame()", ".background()", ".overlay()"],
+        "dropZones": [
+            {"placeholder": "Sets the view's size and alignment.", "correctItem": ".frame()"},
+            {"placeholder": "Adds space around the view.", "correctItem": ".padding()"},
+            {"placeholder": "Places content behind the view.", "correctItem": ".background()"},
+            {"placeholder": "Places content in front of the view.", "correctItem": ".overlay()"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 35,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which Swift feature allows functions to capture and store references to surrounding variables?",
+        "options": ["Closures", "Generics", "Extensions", "Protocols"],
+        "answer": "Closures"
+    },
+    {
+        "id": 36,
+        "type": "true-false",
+        "topic": "SwiftUI",
+        "question": "In SwiftUI, @Binding creates a two-way connection to a value owned by a parent view.",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "id": 37,
+        "type": "fill-in",
+        "topic": "Swift Language Usage",
+        "question": "The Swift operator that combines two optionals into a single optional tuple is ____________.",
+        "answer": "zip"
+    },
+    {
+        "id": 38,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which Swift pattern uses associated values to represent different cases with additional data?",
+        "options": ["Enumeration", "Struct", "Class", "Protocol"],
+        "answer": "Enumeration"
+    },
+    {
+        "id": 39,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "Swift's 'didSet' property observer is called before the new value is stored.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 40,
+        "type": "fill-in",
+        "topic": "Xcode Navigation & Debugging",
+        "question": "The Xcode shortcut to refactor code across the entire project is ____________.",
+        "answer": "Cmd+Shift+R"
+    },
+    {
+        "id": 41,
+        "type": "drag-and-drop",
+        "topic": "Swift Language Usage",
+        "question": "Match the Swift access control levels with their scopes:",
+        "draggableItems": ["private", "fileprivate", "internal", "public"],
+        "dropZones": [
+            {"placeholder": "Access only within the enclosing declaration.", "correctItem": "private"},
+            {"placeholder": "Access within the entire module (default).", "correctItem": "internal"},
+            {"placeholder": "Access from any file in the same module.", "correctItem": "fileprivate"},
+            {"placeholder": "Access from outside the module.", "correctItem": "public"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 42,
+        "type": "multiple-choice",
+        "topic": "SwiftUI",
+        "question": "Which SwiftUI view presents a modal sheet?",
+        "options": ["NavigationLink", "Alert", "Sheet", "Popup"],
+        "answer": "Sheet"
+    },
+    {
+        "id": 43,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "In Swift, a 'weak' reference always becomes nil when the referenced object is deallocated.",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "id": 44,
+        "type": "fill-in",
+        "topic": "Swift Language Usage",
+        "question": "The Swift method that's called just before an object is deallocated is ____________.",
+        "answer": "deinit"
+    },
+    {
+        "id": 45,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which Swift feature enables compile-time checking of API usage?",
+        "options": ["Optionals", "Generics", "Result Builders", "Property Wrappers"],
+        "answer": "Result Builders"
+    },
+    {
+        "id": 46,
+        "type": "true-false",
+        "topic": "SwiftUI",
+        "question": "SwiftUI's List view automatically reuses cells for performance (like UITableView).",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "id": 47,
+        "type": "fill-in",
+        "topic": "SwiftUI",
+        "question": "The pattern where an object notifies observers of state changes is called ____________.",
+        "answer": "Observer Pattern"
+    },
+    {
+        "id": 48,
+        "type": "drag-and-drop",
+        "topic": "Swift Language Usage",
+        "question": "Match the Swift collection methods with their time complexities:",
+        "draggableItems": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+        "dropZones": [
+            {"placeholder": "Array first/last property access.", "correctItem": "O(1)"},
+            {"placeholder": "Array linear search (contains).", "correctItem": "O(n)"},
+            {"placeholder": "Dictionary key lookup.", "correctItem": "O(1)"},
+            {"placeholder": "Nested loop over array elements.", "correctItem": "O(n²)"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 49,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which Swift feature allows custom implementation of operators like + and -?",
+        "options": ["Operator Overloading", "Protocol Extensions", "Custom Operators", "Both A and C"],
+        "answer": "Both A and C"
+    },
+    {
+        "id": 50,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "In Swift, a 'nonisolated' method in an actor can be called without awaiting.",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "id": 51,
+        "type": "fill-in",
+        "topic": "Swift Language Usage",
+        "question": "The Swift protocol that enables value comparison using == is ____________.",
+        "answer": "Equatable"
+    },
+    {
+        "id": 52,
+        "type": "multiple-choice",
+        "topic": "Xcode Navigation & Debugging",
+        "question": "Which Xcode build setting enables whole module optimization?",
+        "options": ["Debug", "Release", "Optimization Level -O", "Both B and C"],
+        "answer": "Both B and C"
+    },
+    {
+        "id": 53,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What will be printed when this Swift code executes?",
+        "code": "var numbers = [1, 2, 3, 4, 5]\nnumbers = numbers.filter { $0 % 2 == 0 }.map { $0 * 2 }\nprint(numbers)",
+        "answer": "[4, 8]"
+    },
+    {
+        "id": 54,
+        "type": "multiple-choice",
+        "topic": "SwiftUI",
+        "question": "Which SwiftUI modifier ensures safe area insets are respected?",
+        "options": [".edgesIgnoringSafeArea(.all)", ".safeAreaInset()", ".padding(.safeArea)", ".ignoresSafeArea()"],
+        "answer": ".ignoresSafeArea()"
+    },
+    {
+        "id": 55,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "A Swift 'lazy var' property can be used in a struct's memberwise initializer.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 56,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What is the output of this Swift code snippet?",
+        "code": "func process<T: Numeric>(_ value: T) -> T {\n    return value + value\n}\n\nlet intResult: Int = process(5)\nlet doubleResult: Double = process(3.14)\nprint(\"\\(intResult), \\(doubleResult)\")",
+        "answer": "10, 6.28"
+    },
+    {
+        "id": 57,
+        "type": "drag-and-drop",
+        "topic": "Swift Language Usage",
+        "question": "Match the Swift memory management concepts with their descriptions:",
+        "draggableItems": ["Strong Reference", "Weak Reference", "Unowned Reference", "Retain Cycle"],
+        "dropZones": [
+            {"placeholder": "Does not keep referenced object alive; becomes nil when object deallocates.", "correctItem": "Weak Reference"},
+            {"placeholder": "Assumes referenced object will never be nil during its lifetime.", "correctItem": "Unowned Reference"},
+            {"placeholder": "Prevents ARC from deallocating the referenced object.", "correctItem": "Strong Reference"},
+            {"placeholder": "When two objects reference each other strongly, preventing deallocation.", "correctItem": "Retain Cycle"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 58,
+        "type": "code-analysis",
+        "topic": "SwiftUI",
+        "question": "What does this SwiftUI code produce when the button is tapped?",
+        "code": "struct ContentView: View {\n    @State private var count = 0\n    \n    var body: some View {\n        VStack {\n            Text(\"Count: \\(count)\")\n            Button(\"Increment\") {\n                count += 1\n                if count == 3 {\n                    count = 0\n                }\n            }\n        }\n    }\n}",
+        "answer": "The count increases from 0 to 2, then resets to 0 when it reaches 3"
+    },
+    {
+        "id": 59,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which Swift protocol combines Equatable and Hashable for collection operations?",
+        "options": ["Comparable", "Identifiable", "Codable", "CaseIterable"],
+        "answer": "Identifiable"
+    },
+    {
+        "id": 60,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "In Swift, a 'final' class can be subclassed if marked with 'open'.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 61,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What is the value of 'result' after this Swift code executes?",
+        "code": "let numbers = [10, 20, 30, 40, 50]\nlet result = numbers.enumerated()\n    .filter { index, _ in index % 2 == 0 }\n    .reduce(0) { sum, element in sum + element.element }\nprint(result)",
+        "answer": "90"
+    },
+    {
+        "id": 62,
+        "type": "fill-in",
+        "topic": "SwiftUI",
+        "question": "The SwiftUI view that displays a scrollable grid of items with lazy loading is ____________.",
+        "answer": "LazyVGrid or LazyHGrid"
+    },
+    {
+        "id": 63,
+        "type": "code-analysis",
+        "topic": "SwiftUI",
+        "question": "What will this SwiftUI code display?",
+        "code": "struct ParentView: View {\n    @StateObject private var viewModel = ViewModel()\n    \n    var body: some View {\n        ChildView(text: viewModel.text)\n    }\n}\n\nclass ViewModel: ObservableObject {\n    @Published var text = \"Hello\"\n}\n\nstruct ChildView: View {\n    let text: String\n    \n    var body: some View {\n        Text(text)\n    }\n}",
+        "answer": "The text \"Hello\" that doesn't update if ViewModel.text changes"
+    },
+    {
+        "id": 64,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which Swift collection type maintains insertion order and allows duplicate elements?",
+        "options": ["Set", "Dictionary", "Array", "OrderedSet"],
+        "answer": "Array"
+    },
+    {
+        "id": 65,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "Swift's 'guard let' creates a new constant in the current scope, not the guard statement's scope.",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "id": 66,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What is printed when this Swift concurrency code runs?",
+        "code": "func fetchData() async -> String {\n    try? await Task.sleep(nanoseconds: 1_000_000_000)\n    return \"Data Loaded\"\n}\n\nTask {\n    let data = await fetchData()\n    print(data)\n}\nprint(\"Starting...\")",
+        "answer": "\"Starting...\" followed by \"Data Loaded\" after 1 second"
+    },
+    {
+        "id": 67,
+        "type": "drag-and-drop",
+        "topic": "Xcode Navigation & Debugging",
+        "question": "Match the Xcode debugging tools with their purposes:",
+        "draggableItems": ["Debug Navigator", "Memory Graph Debugger", "View Debugger", "Network Link Conditioner"],
+        "dropZones": [
+            {"placeholder": "Shows CPU, memory, and energy usage in real-time.", "correctItem": "Debug Navigator"},
+            {"placeholder": "Visualizes memory allocations and retain cycles.", "correctItem": "Memory Graph Debugger"},
+            {"placeholder": "Captures and inspects the view hierarchy at runtime.", "correctItem": "View Debugger"},
+            {"placeholder": "Simulates different network conditions for testing.", "correctItem": "Network Link Conditioner"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 68,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What does this Swift code output?",
+        "code": "protocol Drawable {\n    func draw()\n}\n\nextension Drawable {\n    func draw() {\n        print(\"Drawing default shape\")\n    }\n}\n\nstruct Circle: Drawable {\n    func draw() {\n        print(\"Drawing circle\")\n    }\n}\n\nlet shape: Drawable = Circle()\nshape.draw()",
+        "answer": "Drawing circle"
+    },
+    {
+        "id": 69,
+        "type": "multiple-choice",
+        "topic": "SwiftUI",
+        "question": "Which SwiftUI property wrapper is best for sharing data across multiple views in a hierarchy?",
+        "options": ["@State", "@Binding", "@EnvironmentObject", "@ObservedObject"],
+        "answer": "@EnvironmentObject"
+    },
+    {
+        "id": 70,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "Swift's 'defer' blocks are executed in reverse order (LIFO) when multiple are in the same scope.",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "id": 71,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What will be printed by this Swift error handling code?",
+        "code": "enum AppError: Error {\n    case notFound\n    case invalidInput\n}\n\nfunc process(value: Int) throws -> String {\n    guard value > 0 else { throw AppError.invalidInput }\n    return \"Valid: \\(value)\"\n}\n\ndo {\n    let result = try process(value: -5)\n    print(result)\n} catch AppError.invalidInput {\n    print(\"Invalid input error\")\n} catch {\n    print(\"Other error\")\n}",
+        "answer": "Invalid input error"
+    },
+    {
+        "id": 72,
+        "type": "fill-in",
+        "topic": "Xcode Navigation & Debugging",
+        "question": "The Xcode feature that automatically suggests and applies common fixes for compiler errors is called ____________.",
+        "answer": "Fix-it"
+    },
+    {
+        "id": 73,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What is the result of this Swift generic function call?",
+        "code": "func swapValues<T>(_ a: inout T, _ b: inout T) {\n    let temp = a\n    a = b\n    b = temp\n}\n\nvar x = 10\nvar y = 20\nswapValues(&x, &y)\nprint(\"x=\\(x), y=\\(y)\")",
+        "answer": "x=20, y=10"
+    },
+    {
+        "id": 74,
+        "type": "multiple-choice",
+        "topic": "SwiftUI",
+        "question": "Which SwiftUI view modifier creates an animated transition between view states?",
+        "options": [".animation()", ".withAnimation()", ".transition()", ".animate()"],
+        "answer": ".transition()"
+    },
+    {
+        "id": 75,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "In Swift, a 'nonmutating' method can modify the instance's stored properties.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 76,
+        "type": "code-analysis",
+        "topic": "SwiftUI",
+        "question": "What does this SwiftUI code produce?",
+        "code": "struct ContentView: View {\n    @State private var isOn = false\n    \n    var body: some View {\n        VStack {\n            Toggle(\"Switch\", isOn: $isOn)\n            Text(isOn ? \"ON\" : \"OFF\")\n                .foregroundColor(isOn ? .green : .red)\n        }\n        .padding()\n    }\n}",
+        "answer": "A toggle switch with text that changes color and state when toggled"
+    },
+    {
+        "id": 77,
+        "type": "drag-and-drop",
+        "topic": "Swift Language Usage",
+        "question": "Match the Swift collection operations with their time complexities:",
+        "draggableItems": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+        "dropZones": [
+            {"placeholder": "Set membership check (contains).", "correctItem": "O(1)"},
+            {"placeholder": "Array sorting using sorted().", "correctItem": "O(n log n)"},
+            {"placeholder": "Dictionary value removal by key.", "correctItem": "O(1)"},
+            {"placeholder": "Array searching for an element with firstIndex(of:).", "correctItem": "O(n)"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 78,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What is the output of this Swift code with optionals?",
+        "code": "let optionalString: String? = \"Hello\"\nlet result = optionalString?.count ?? 0\nprint(result)",
+        "answer": "5"
+    },
+    {
+        "id": 79,
+        "type": "multiple-choice",
+        "topic": "Swift Language Usage",
+        "question": "Which Swift feature allows a function to return different types based on conditions?",
+        "options": ["Generics", "Opaque Types (some)", "Protocols with Associated Types", "Conditional Returns"],
+        "answer": "Opaque Types (some)"
+    },
+    {
+        "id": 80,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "Swift's 'willSet' property observer has access to the new value via 'newValue' parameter.",
+        "options": ["True", "False"],
+        "answer": "True"
+    },
+    {
+        "id": 81,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What will this Swift actor code print?",
+        "code": "actor Counter {\n    private var value = 0\n    \n    func increment() {\n        value += 1\n    }\n    \n    func getValue() -> Int {\n        return value\n    }\n}\n\nTask {\n    let counter = Counter()\n    await counter.increment()\n    let value = await counter.getValue()\n    print(value)\n}",
+        "answer": "1"
+    },
+    {
+        "id": 82,
+        "type": "fill-in",
+        "topic": "SwiftUI",
+        "question": "The SwiftUI view that presents a temporary view over the current content is called ____________.",
+        "answer": "overlay"
+    },
+    {
+        "id": 83,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What does this Swift pattern matching code output?",
+        "code": "let point = (2, 3)\nswitch point {\ncase (0, 0):\n    print(\"Origin\")\ncase (_, 0):\n    print(\"On x-axis\")\ncase (0, _):\n    print(\"On y-axis\")\ncase (-2...2, -2...2):\n    print(\"Inside 5x5 square\")\ndefault:\n    print(\"Somewhere else\")\n}",
+        "answer": "Inside 5x5 square"
+    },
+    {
+        "id": 84,
+        "type": "multiple-choice",
+        "topic": "Xcode Navigation & Debugging",
+        "question": "Which Xcode build configuration is optimized for debugging with symbols?",
+        "options": ["Debug", "Release", "Profile", "Archive"],
+        "answer": "Debug"
+    },
+    {
+        "id": 85,
+        "type": "true-false",
+        "topic": "SwiftUI",
+        "question": "In SwiftUI, @Binding can be used without a parent view providing the bound value.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 86,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What is the result of this Swift higher-order function chain?",
+        "code": "let numbers = [1, 2, 3, 4, 5]\nlet result = numbers\n    .reduce((sum: 0, product: 1)) { acc, num in\n        (acc.sum + num, acc.product * num)\n    }\nprint(\"Sum: \\(result.sum), Product: \\(result.product)\")",
+        "answer": "Sum: 15, Product: 120"
+    },
+    {
+        "id": 87,
+        "type": "drag-and-drop",
+        "topic": "SwiftUI",
+        "question": "Match the Swift property wrappers with their use cases:",
+        "draggableItems": ["@State", "@Binding", "@Published", "@AppStorage"],
+        "dropZones": [
+            {"placeholder": "Stores simple data in UserDefaults with automatic UI updates.", "correctItem": "@AppStorage"},
+            {"placeholder": "Creates a two-way connection to a value owned by a parent view.", "correctItem": "@Binding"},
+            {"placeholder": "Marks a property of ObservableObject that triggers objectWillChange.", "correctItem": "@Published"},
+            {"placeholder": "Manages local state within a view that's owned by the view.", "correctItem": "@State"}
+        ],
+        "answer": {}
+    },
+    {
+        "id": 88,
+        "type": "code-analysis",
+        "topic": "SwiftUI",
+        "question": "What will this SwiftUI animation code do?",
+        "code": "struct AnimatedView: View {\n    @State private var scale: CGFloat = 1.0\n    \n    var body: some View {\n        Circle()\n            .frame(width: 100, height: 100)\n            .scaleEffect(scale)\n            .onTapGesture {\n                withAnimation(.easeInOut(duration: 0.5)) {\n                    scale = scale == 1.0 ? 1.5 : 1.0\n                }\n            }\n    }\n}",
+        "answer": "A circle that toggles between normal and 1.5x scale with animation when tapped"
+    },
+    {
+        "id": 89,
+        "type": "multiple-choice",
+        "topic": "Xcode Navigation & Debugging",
+        "question": "Which Swift feature enables compile-time checking of API availability?",
+        "options": ["#available", "@available", "if #available", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "id": 90,
+        "type": "true-false",
+        "topic": "Swift Language Usage",
+        "question": "Swift's 'CaseIterable' protocol automatically provides an 'allCases' array for enums with associated values.",
+        "options": ["True", "False"],
+        "answer": "False"
+    },
+    {
+        "id": 91,
+        "type": "code-analysis",
+        "topic": "Swift Language Usage",
+        "question": "What does this Swift string interpolation code output?",
+        "code": "let value = 42\nlet string = \"The answer is \\(value)\"\nprint(string)",
+        "answer": "The answer is 42"
+    },
+    {
+        "id": 92,
+        "type": "fill-in",
+        "topic": "SwiftUI",
+        "question": "The SwiftUI modifier that adjusts the view's opacity based on a condition is ____________.",
+        "answer": ".opacity()"
+    },
+    {
+    "id": 93,
+    "type": "multiple-choice",
+    "topic": "Xcode Developer Tools",
+    "question": "Which view in Xcode's interface is primarily used to create and modify the visual layout of a SwiftUI View?",
+    "options": [
+      "Debug Navigator",
+      "Interface Builder (Storyboard)",
+      "Canvas",
+      "Project Navigator"
+    ],
+    "answer": "Canvas"
+  },
+  {
+    "id": 94,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "In Swift, the 'guard' statement is primarily used to perform an early exit from a function or loop if a condition is not met.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 95,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The collection type in Swift that stores multiple values of the same type in an ordered sequence is called an ____________.",
+    "answer": "Array"
+  },
+  {
+    "id": 96,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the Swift control flow constructs with their function:",
+    "draggableItems": [
+      "if-else",
+      "for-in",
+      "switch",
+      "while"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Executes a block of code based on a boolean condition.",
+        "correctItem": "if-else"
+      },
+      {
+        "placeholder": "Iterates over a sequence, such as an array's elements.",
+        "correctItem": "for-in"
+      },
+      {
+        "placeholder": "Evaluates a value against multiple possible patterns.",
+        "correctItem": "switch"
+      },
+      {
+        "placeholder": "Repeats a block of code as long as a condition is true.",
+        "correctItem": "while"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 97,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the result of the following range operator expression in Swift: `1..<5`",
+    "code": "let range = 1..<5\nprint(range)",
+    "answer": "A range including the numbers 1, 2, 3, 4 (excluding 5)"
+  },
+  {
+    "id": 98,
+    "type": "multiple-choice",
+    "topic": "Planning and Design",
+    "question": "Which phase of the design cycle typically involves creating a low-fidelity mock-up of the app's user interface?",
+    "options": [
+      "Brainstorm",
+      "Plan",
+      "Prototype",
+      "Evaluate"
+    ],
+    "answer": "Prototype"
+  },
+  {
+    "id": 99,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "The primary way to handle app navigation in modern SwiftUI is by using the deprecated `NavigationView`.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 100,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The Swift keyword used to define a new value type with associated data for a fixed set of related cases is ____________.",
+    "answer": "enum"
+  },
+  {
+    "id": 101,
+    "type": "drag-and-drop",
+    "topic": "Xcode Project Navigation",
+    "question": "Match the file extension with its typical purpose in an Xcode project:",
+    "draggableItems": [
+      ".swift",
+      ".xcodeproj",
+      ".xcassets",
+      ".plist"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Contains the application source code.",
+        "correctItem": ".swift"
+      },
+      {
+        "placeholder": "Manages the project settings and configurations.",
+        "correctItem": ".xcodeproj"
+      },
+      {
+        "placeholder": "Holds image and color assets.",
+        "correctItem": ".xcassets"
+      },
+      {
+        "placeholder": "Stores configuration data like app permissions.",
+        "correctItem": ".plist"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 102,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the final value of the array `scores` after this code executes?",
+    "code": "var scores = [10, 20, 30]\nscores.append(40)\nscores.remove(at: 0)\nprint(scores)",
+    "answer": "[20, 30, 40]"
+  },
+  {
+    "id": 103,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which of the following is an example of an unsafe way to unwrap an Optional in Swift?",
+    "options": [
+      "Optional Binding (if let)",
+      "Guard Let",
+      "Nil-Coalescing Operator (??)",
+      "Forced Unwrapping (!)"
+    ],
+    "answer": "Forced Unwrapping (!)"
+  },
+  {
+    "id": 104,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "The `List` view in SwiftUI is designed specifically to iterate through collections and display them in a scrollable column.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 105,
+    "type": "fill-in",
+    "topic": "Xcode Developer Tools",
+    "question": "The debugging tool that allows you to pause program execution when a specific variable's value changes is a ____________.",
+    "answer": "Watchpoint"
+  },
+  {
+    "id": 106,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the use case with the appropriate property type in Swift:",
+    "draggableItems": [
+      "Stored Property",
+      "Computed Property",
+      "Property Observer",
+      "Default Parameter Value"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Defining a property that calculates its value every time it's accessed.",
+        "correctItem": "Computed Property"
+      },
+      {
+        "placeholder": "Defining a property that holds a value and is stored as part of the instance.",
+        "correctItem": "Stored Property"
+      },
+      {
+        "placeholder": "Executing code just before or just after a property's value is set.",
+        "correctItem": "Property Observer"
+      },
+      {
+        "placeholder": "Allowing a function parameter to be optional in the call, providing a fallback value.",
+        "correctItem": "Default Parameter Value"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 107,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What does this Swift code snippet print?",
+    "code": "let isRaining = true\nlet isCold = false\nif isRaining && isCold {\n    print(\"Stay inside\")\n} else {\n    print(\"Go out\")\n}",
+    "answer": "Go out"
+  },
+  {
+    "id": 108,
+    "type": "multiple-choice",
+    "topic": "Planning and Design",
+    "question": "Which factor must be assessed when considering a visual design with accessibility in mind (Associate Objective 1.3)?",
+    "options": [
+      "The app's marketing budget",
+      "Color contrast and font sizes",
+      "The choice of server-side language",
+      "The cost of digital distribution"
+    ],
+    "answer": "Color contrast and font sizes"
+  },
+  {
+    "id": 109,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "In Swift, a structure (struct) is always passed by reference when assigned to a new variable.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 110,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The naming convention where the first word is lowercase and subsequent words start with a capital letter (e.g., `myFunctionName`) is called ____________.",
+    "answer": "camel casing"
+  },
+  {
+    "id": 111,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the Swift constant/variable concepts with their definitions:",
+    "draggableItems": [
+      "Constant",
+      "Variable",
+      "Type Inference",
+      "Explicit Typing"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "A value that cannot be changed after its initial assignment.",
+        "correctItem": "Constant"
+      },
+      {
+        "placeholder": "A value that can be modified after its initial assignment.",
+        "correctItem": "Variable"
+      },
+      {
+        "placeholder": "Swift automatically deduces the data type based on the initial value.",
+        "correctItem": "Type Inference"
+      },
+      {
+        "placeholder": "The data type is explicitly stated during declaration (e.g., `: String`).",
+        "correctItem": "Explicit Typing"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 112,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the output of this dictionary operation?",
+    "code": "var capitals = [\"FR\": \"Paris\", \"DE\": \"Berlin\"]\ncapitals[\"IT\"] = \"Rome\"\ncapitals[\"FR\"] = nil\nprint(capitals)",
+    "answer": "[\"DE\": \"Berlin\", \"IT\": \"Rome\"]"
+  },
+  {
+    "id": 113,
+    "type": "multiple-choice",
+    "topic": "SwiftUI View Building",
+    "question": "Which set of SwiftUI Views is used to arrange content in horizontal, vertical, and overlapping layers, respectively (Associate Objective 4.4)?",
+    "options": [
+      "VStack, HStack, List",
+      "HStack, VStack, ZStack",
+      "Grid, List, Form",
+      "ZStack, VStack, HStack"
+    ],
+    "answer": "HStack, VStack, ZStack"
+  },
+  {
+    "id": 114,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "A type-check operator (`is`) can be used to check if an instance is of a certain subclass.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 115,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The process of declaring a variable with the same name as a variable in an outer scope, which hides the outer variable, is called ____________.",
+    "answer": "shadowing"
+  },
+  {
+    "id": 116,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the SwiftUI property wrapper with its use case (Certified User Objective 3.6):",
+    "draggableItems": [
+      "@State",
+      "@Binding",
+      "@Environment",
+      "@Observable"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Managing simple, local data within a single View.",
+        "correctItem": "@State"
+      },
+      {
+        "placeholder": "Creating a two-way connection to a source of truth owned by a parent View.",
+        "correctItem": "@Binding"
+      },
+      {
+        "placeholder": "Accessing values shared across the entire app or a large part of the view hierarchy.",
+        "correctItem": "@Environment"
+      },
+      {
+        "placeholder": "Making a model class automatically publish changes to any listening View.",
+        "correctItem": "@Observable"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 117,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the output of this function call?",
+    "code": "func greet(name externalName: String, age: Int) {\n    print(\"Hello, \\(externalName). You are \\(age).\")\n}\n\ngreet(name: \"Alice\", age: 30)",
+    "answer": "Hello, Alice. You are 30."
+  },
+  {
+    "id": 118,
+    "type": "multiple-choice",
+    "topic": "Debugging",
+    "question": "The difference between a **syntax error** and a **run-time error** is that a syntax error is identified by the compiler, while a run-time error is identified:",
+    "options": [
+      "Only on the first line of code",
+      "During the execution of the program",
+      "Only in Interface Builder",
+      "By using a `final` keyword"
+    ],
+    "answer": "During the execution of the program"
+  },
+  {
+    "id": 119,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "The `didSet` property observer is called before the value of the property is actually changed.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 120,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "A function that has a preset value for a parameter that can be omitted when calling the function is said to have a ____________.",
+    "answer": "default parameter value"
+  },
+  {
+    "id": 121,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the SwiftUI element with the concept it represents:",
+    "draggableItems": [
+      "Text(\"Hi\")",
+      "VStack",
+      ".font(.largeTitle)",
+      "ContentView()"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "A basic content View.",
+        "correctItem": "Text(\"Hi\")"
+      },
+      {
+        "placeholder": "A container View.",
+        "correctItem": "VStack"
+      },
+      {
+        "placeholder": "A modifier.",
+        "correctItem": ".font(.largeTitle)"
+      },
+      {
+        "placeholder": "The root View of the application.",
+        "correctItem": "ContentView()"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 122,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the value of 'sum' after the loop finishes?",
+    "code": "var sum = 0\nfor i in 1...5 {\n    sum += i\n}\nprint(sum)",
+    "answer": "15"
+  },
+  {
+    "id": 123,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "To convert an instance of a subclass to a superclass type in Swift (upcasting), you use the operator:",
+    "options": [
+      "as!",
+      "as?",
+      "as",
+      "is"
+    ],
+    "answer": "as"
+  },
+  {
+    "id": 124,
+    "type": "true-false",
+    "topic": "Planning and Design",
+    "question": "Part of summarizing how sensitive data can be protected involves discussing the security challenges in transmitting and storing that data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 125,
+    "type": "fill-in",
+    "topic": "SwiftUI View Building",
+    "question": "The process of creating a separate, reusable SwiftUI View from a complex section of a parent View is known as ____________.",
+    "answer": "Extract Subviews"
+  },
+  {
+    "id": 126,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the logical operator with its purpose in control flow:",
+    "draggableItems": [
+      "&&",
+      "||",
+      "!"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Logical AND: True if both operands are true.",
+        "correctItem": "&&"
+      },
+      {
+        "placeholder": "Logical OR: True if at least one operand is true.",
+        "correctItem": "||"
+      },
+      {
+        "placeholder": "Logical NOT: Inverts the boolean value.",
+        "correctItem": "!"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 127,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What value will be printed after this Swift code executes?",
+    "code": "let height: Double? = 1.75\nlet finalHeight = height ?? 0.0\nprint(finalHeight)",
+    "answer": "1.75"
+  },
+  {
+    "id": 128,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which of the following is a primary differentiator between a Swift structure (`struct`) and a Swift class (`class`)?",
+    "options": [
+      "Structures support inheritance, classes do not.",
+      "Structures are reference types, classes are value types.",
+      "Structures are value types, classes are reference types.",
+      "Only classes can define methods and properties."
+    ],
+    "answer": "Structures are value types, classes are reference types."
+  },
+  {
+    "id": 129,
+    "type": "true-false",
+    "topic": "Xcode Project Navigation",
+    "question": "The 'Assets' available in a project must be defined solely by their file name and cannot be referenced by a catalog name.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 130,
+    "type": "fill-in",
+    "topic": "SwiftUI View Building",
+    "question": "In SwiftUI, the use of a function to describe the user interface is an example of ____________ programming.",
+    "answer": "declarative"
+  },
+  {
+    "id": 131,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the Swift numeric data type with its common use case:",
+    "draggableItems": [
+      "Int",
+      "Double",
+      "Float",
+      "Bool"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "The default type for whole numbers.",
+        "correctItem": "Int"
+      },
+      {
+        "placeholder": "The default type for large floating-point numbers.",
+        "correctItem": "Double"
+      },
+      {
+        "placeholder": "Used for smaller floating-point numbers when precision is less critical.",
+        "correctItem": "Float"
+      },
+      {
+        "placeholder": "Used to represent truth values.",
+        "correctItem": "Bool"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 132,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What value will be printed by this code snippet?",
+    "code": "var num = 10\nvar result = num % 3\nprint(result)",
+    "answer": "1"
+  },
+  {
+    "id": 133,
+    "type": "multiple-choice",
+    "topic": "Xcode Developer Tools",
+    "question": "Where are the build and runtime logs, including output from `print()` statements, displayed in Xcode?",
+    "options": [
+      "The Project Navigator",
+      "The Document Outline",
+      "The Console Area",
+      "The Attributes Inspector"
+    ],
+    "answer": "The Console Area"
+  },
+  {
+    "id": 134,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "When defining a function in Swift, the internal and external parameter names must always be the same.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 135,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The Swift construct used to safely attempt to retrieve a value from an Optional and return early if it is nil is known as ____________.",
+    "answer": "Optional binding"
+  },
+  {
+    "id": 136,
+    "type": "drag-and-drop",
+    "topic": "Planning and Design",
+    "question": "Match the design cycle phase with its primary activity:",
+    "draggableItems": [
+      "Brainstorm",
+      "Plan",
+      "Prototype",
+      "Evaluate"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Generating ideas and exploring concepts.",
+        "correctItem": "Brainstorm"
+      },
+      {
+        "placeholder": "Defining the project scope and setting milestones.",
+        "correctItem": "Plan"
+      },
+      {
+        "placeholder": "Testing the app with users and gathering feedback.",
+        "correctItem": "Evaluate"
+      },
+      {
+        "placeholder": "Creating a working, non-final version of a feature.",
+        "correctItem": "Prototype"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 137,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the final value of 'result' after the expression is evaluated?",
+    "code": "let result = 5 + 3 * 2\nprint(result)",
+    "answer": "11"
+  },
+  {
+    "id": 138,
+    "type": "multiple-choice",
+    "topic": "SwiftUI View Building",
+    "question": "To create a button that changes a local state variable in SwiftUI, which property wrapper must be used to declare the variable?",
+    "options": [
+      "@ObservedObject",
+      "@State",
+      "@Published",
+      "@EnvironmentObject"
+    ],
+    "answer": "@State"
+  },
+  {
+    "id": 139,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "A protocol in Swift can be extended to provide default implementations for its requirements.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 140,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The designated method for initializing a class or structure instance with property values is called an ____________.",
+    "answer": "initializer"
+  },
+  {
+    "id": 141,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the Swift property observer keyword with its execution time:",
+    "draggableItems": [
+      "willSet",
+      "didSet"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Executed just before the value of a property is set.",
+        "correctItem": "willSet"
+      },
+      {
+        "placeholder": "Executed immediately after the new value of a property has been stored.",
+        "correctItem": "didSet"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 142,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What does this Swift code print to the console?",
+    "code": "func calculate(_ a: Int, _ b: Int) -> Int {\n    return a + b\n}\n\nlet result = calculate(10, 5)\nprint(result)",
+    "answer": "15"
+  },
+  {
+    "id": 143,
+    "type": "multiple-choice",
+    "topic": "SwiftUI View Building",
+    "question": "Which set of SwiftUI interactive controls are listed as part of the Associate exam objectives (4.6)?",
+    "options": [
+      "List, GroupBox, Picker",
+      "Button, TextField, Slider, Toggle",
+      "MapView, VideoPlayer, PDFView",
+      "UILabel, UIButton, UITextView"
+    ],
+    "answer": "Button, TextField, Slider, Toggle"
+  },
+  {
+    "id": 144,
+    "type": "true-false",
+    "topic": "Xcode Developer Tools",
+    "question": "The iOS simulator allows you to test an app's functionality on various device types and operating system versions without needing a physical device.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 145,
+    "type": "fill-in",
+    "topic": "Xcode Project Navigation",
+    "question": "To add an image or a color definition to an Xcode project for use in code, you would typically import it into the ____________.",
+    "answer": "Asset Catalog"
+  },
+  {
+    "id": 146,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the collection type property with its time complexity (average case):",
+    "draggableItems": [
+      "O(1)",
+      "O(n)"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Retrieving a value from a Dictionary using a key.",
+        "correctItem": "O(1)"
+      },
+      {
+        "placeholder": "Inserting an element at the beginning of an Array.",
+        "correctItem": "O(n)"
+      },
+      {
+        "placeholder": "Accessing an element of an Array by its index.",
+        "correctItem": "O(1)"
+      },
+      {
+        "placeholder": "Checking for the existence of a specific element in an Array.",
+        "correctItem": "O(n)"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 147,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What value will be printed?",
+    "code": "let a: Any = 10\nif let number = a as? Int {\n    print(number * 2)\n} else {\n    print(0)\n}",
+    "answer": "20"
+  },
+  {
+    "id": 148,
+    "type": "multiple-choice",
+    "topic": "Planning and Design",
+    "question": "Which of the following is a key legal, ethical, or socioeconomic impact developers must consider when planning an app (Associate Objective 1.2.3)?",
+    "options": [
+      "App size on disk",
+      "User privacy regulations (e.g., GDPR)",
+      "The color of the app icon",
+      "Code readability"
+    ],
+    "answer": "User privacy regulations (e.g., GDPR)"
+  },
+  {
+    "id": 149,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "The `String` type in Swift is a value type, meaning a copy is made when it is passed to a function.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 150,
+    "type": "fill-in",
+    "topic": "SwiftUI View Building",
+    "question": "In SwiftUI, a modal sheet is presented using the `.sheet(isPresented:content:)` modifier, or a similar modifier for navigation stacks, and is considered a type of ____________.",
+    "answer": "View Presentation"
+  },
+  {
+    "id": 151,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the term with the appropriate definition:",
+    "draggableItems": [
+      "Initialization",
+      "Deinitialization",
+      "Type Casting",
+      "Optional Chaining"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "The process of preparing an instance of a class, structure, or enumeration for use.",
+        "correctItem": "Initialization"
+      },
+      {
+        "placeholder": "The process of checking the type of an instance, or treating an instance as a different type.",
+        "correctItem": "Type Casting"
+      },
+      {
+        "placeholder": "A way to query and call properties, methods, and subscripts on a chain of optionals.",
+        "correctItem": "Optional Chaining"
+      },
+      {
+        "placeholder": "A method run just before a class instance is deallocated.",
+        "correctItem": "Deinitialization"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 152,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the final value of the constant `message`?",
+    "code": "let message = \"Hello\" + \" Swift\"\nprint(message)",
+    "answer": "Hello Swift"
+  },
+  {
+    "id": 153,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which arithmetic operator calculates the remainder after division?",
+    "options": [
+      "/",
+      "%",
+      "*",
+      "-"
+    ],
+    "answer": "%"
+  },
+  {
+    "id": 154,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "A tuple in Swift is a collection type that must contain only elements of the same type.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 155,
+    "type": "fill-in",
+    "topic": "SwiftUI View Building",
+    "question": "The SwiftUI container view that displays its contents one after another, from front to back (overlapping), is a ____________.",
+    "answer": "ZStack"
+  },
+  {
+    "id": 156,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the Swift comparison operator with its meaning:",
+    "draggableItems": [
+      "==",
+      "!=",
+      ">",
+      "<="
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Equal to",
+        "correctItem": "=="
+      },
+      {
+        "placeholder": "Not equal to",
+        "correctItem": "!="
+      },
+      {
+        "placeholder": "Greater than",
+        "correctItem": ">"
+      },
+      {
+        "placeholder": "Less than or equal to",
+        "correctItem": "<="
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 157,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the output of this code snippet?",
+    "code": "var result = \"\"\nfor char in \"Swift\" {\n    result += String(char)\n}\nprint(result)",
+    "answer": "Swift"
+  },
+  {
+    "id": 158,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "When defining an initializer for a structure in Swift, what is generally provided automatically if no custom initializers are created?",
+    "options": [
+      "A failable initializer",
+      "A default initializer (no arguments)",
+      "A memberwise initializer",
+      "A copy initializer"
+    ],
+    "answer": "A memberwise initializer"
+  },
+  {
+    "id": 159,
+    "type": "true-false",
+    "topic": "Xcode Project Navigation",
+    "question": "In Xcode, the appropriate actions to hide or show different areas of the user interface are called 'configuring different areas' (Associate Objective 2.4).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 160,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The Swift keyword used to define a function's parameters and return type is part of the function's ____________.",
+    "answer": "signature"
+  },
+  {
+    "id": 161,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the Content View with the type of content it displays:",
+    "draggableItems": [
+      "Text",
+      "Image",
+      "Shape",
+      "Color"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Displays static, formatted strings.",
+        "correctItem": "Text"
+      },
+      {
+        "placeholder": "Displays raster or vector graphics.",
+        "correctItem": "Image"
+      },
+      {
+        "placeholder": "Draws geometrical forms (e.g., Circle, Rectangle).",
+        "correctItem": "Shape"
+      },
+      {
+        "placeholder": "Fills a view's background with a solid hue.",
+        "correctItem": "Color"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 162,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the value of 'greeting' after the use of optional chaining?",
+    "code": "class Person { var name: String? = \"Charlie\" }\nlet optionalPerson: Person? = Person()\nlet greeting = optionalPerson?.name ?? \"Guest\"\nprint(greeting)",
+    "answer": "Charlie"
+  },
+  {
+    "id": 163,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which control flow statement is best suited for quickly determining if multiple optional values contain a value and unwrapping them simultaneously?",
+    "options": [
+      "if-else",
+      "while loop",
+      "guard let",
+      "switch statement"
+    ],
+    "answer": "guard let"
+  },
+  {
+    "id": 164,
+    "type": "true-false",
+    "topic": "Debugging",
+    "question": "Interpreting error messages involves understanding the nature of the error (e.g., compile-time vs. run-time) and the relevant line of code where it occurred.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 165,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "When defining a function, the text used *outside* the function call to label the argument is called the ____________.",
+    "answer": "argument label"
+  },
+  {
+    "id": 166,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the Swift collection method with its result type:",
+    "draggableItems": [
+      "map",
+      "filter",
+      "reduce"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Returns an array containing the results of calling a closure on each element.",
+        "correctItem": "map"
+      },
+      {
+        "placeholder": "Returns an array containing only the elements that satisfy a predicate.",
+        "correctItem": "filter"
+      },
+      {
+        "placeholder": "Returns a single value calculated from the elements of the sequence.",
+        "correctItem": "reduce"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 167,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the output of this conditional statement?",
+    "code": "let score = 95\nif score >= 90 {\n    print(\"A\")\n} else if score >= 80 {\n    print(\"B\")\n} else {\n    print(\"C\")\n}",
+    "answer": "A"
+  },
+  {
+    "id": 168,
+    "type": "multiple-choice",
+    "topic": "SwiftUI View Building",
+    "question": "Which statement best describes the 'View hierarchy' in SwiftUI?",
+    "options": [
+      "A list of all possible modifiers for a View.",
+      "The order of classes that a View inherits from.",
+      "The tree-like structure of nested Views that define the UI.",
+      "The way Xcode organizes project files."
+    ],
+    "answer": "The tree-like structure of nested Views that define the UI."
+  },
+  {
+    "id": 169,
+    "type": "true-false",
+    "topic": "Xcode Developer Tools",
+    "question": "To run an app on a physical iOS device, the developer must have a paid Apple Developer Program membership.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 170,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "In Swift, the type of a value can be explicitly declared using the colon operator (e.g., `let name: String`) which is known as a ____________.",
+    "answer": "Type Annotation"
+  },
+  {
+    "id": 171,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the term with the appropriate definition in Swift Language Usage:",
+    "draggableItems": [
+      "Method",
+      "Property",
+      "Initializer",
+      "Subscript"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "A function that is associated with a specific type.",
+        "correctItem": "Method"
+      },
+      {
+        "placeholder": "A value associated with a class, structure, or enumeration.",
+        "correctItem": "Property"
+      },
+      {
+        "placeholder": "Prepares an instance for use.",
+        "correctItem": "Initializer"
+      },
+      {
+        "placeholder": "A shortcut for accessing members of a collection, list, or sequence.",
+        "correctItem": "Subscript"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 172,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the printed result of this range operator?",
+    "code": "let range = 1...3\nvar sum = 0\nfor i in range {\n    sum += i\n}\nprint(sum)",
+    "answer": "6"
+  },
+  {
+    "id": 173,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which of the following is not a valid Swift identifier name?",
+    "options": [
+      "_myVariable",
+      "myVariable123",
+      "func",
+      "variable_name"
+    ],
+    "answer": "func"
+  },
+  {
+    "id": 174,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "The use of `if let` creates a new, temporary constant that exists only within the scope of the `if` statement's body.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 175,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "In Swift, a structure must have all its stored properties assigned a value by the end of its ____________.",
+    "answer": "initializer"
+  },
+  {
+    "id": 176,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the SwiftUI Navigation concept with its purpose (Certified User Objective 3.5):",
+    "draggableItems": [
+      "NavigationStack",
+      "NavigationLink",
+      "Sheet"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Creates a container that manages the path of presented views.",
+        "correctItem": "NavigationStack"
+      },
+      {
+        "placeholder": "A view that initiates navigation to a destination view.",
+        "correctItem": "NavigationLink"
+      },
+      {
+        "placeholder": "Presents a new view modally over the current content.",
+        "correctItem": "Sheet"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 177,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the final value of `score` after this code executes?",
+    "code": "var score = 10\nscore += 5\nprint(score)",
+    "answer": "15"
+  },
+  {
+    "id": 178,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "To define a function's parameter that acts as a wildcard, preventing an external name from being required at the call site, you use:",
+    "options": [
+      "A variable name",
+      "The underscore character (`_`)",
+      "The `final` keyword",
+      "The `inout` keyword"
+    ],
+    "answer": "The underscore character (`_`)"
+  },
+  {
+    "id": 179,
+    "type": "true-false",
+    "topic": "Planning and Design",
+    "question": "Sharing personal and application information with third parties is a security challenge that requires careful consideration in app development.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 180,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "In Swift, a type that must be passed by value when copied or assigned is called a ____________.",
+    "answer": "value type"
+  },
+  {
+    "id": 181,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the type of cast with its outcome on failure:",
+    "draggableItems": [
+      "as",
+      "as?",
+      "as!"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Casts to a superclass without checking (guaranteed success).",
+        "correctItem": "as"
+      },
+      {
+        "placeholder": "Fails gracefully by returning an optional value (nil on failure).",
+        "correctItem": "as?"
+      },
+      {
+        "placeholder": "Force-casts and causes a runtime error (crash) on failure.",
+        "correctItem": "as!"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 182,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What does the code print?",
+    "code": "let value = 10\nswitch value {\ncase 1...10:\n    print(\"Range 1-10\")\ncase 11...20:\n    print(\"Range 11-20\")\ndefault:\n    print(\"Other\")\n}",
+    "answer": "Range 1-10"
+  },
+  {
+    "id": 183,
+    "type": "multiple-choice",
+    "topic": "SwiftUI View Building",
+    "question": "Which SwiftUI modifier is typically used to set a fixed or flexible size boundary for a view?",
+    "options": [
+      ".padding()",
+      ".frame()",
+      ".background()",
+      ".shadow()"
+    ],
+    "answer": ".frame()"
+  },
+  {
+    "id": 184,
+    "type": "true-false",
+    "topic": "Debugging",
+    "question": "A breakpoint in Xcode allows the developer to stop execution and step through the code line by line to inspect state and flow.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 185,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "A Swift array is an ordered collection of values that are accessed by their numerical ____________.",
+    "answer": "index"
+  },
+  {
+    "id": 186,
+    "type": "drag-and-drop",
+    "topic": "Xcode Developer Tools",
+    "question": "Match the Xcode debugging technique with its description (Certified User Objective 1.3):",
+    "draggableItems": [
+      "Breakpoints",
+      "Watchpoints",
+      "Logging"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Pauses execution at a specific line of code.",
+        "correctItem": "Breakpoints"
+      },
+      {
+        "placeholder": "Prints messages to the console during execution.",
+        "correctItem": "Logging"
+      },
+      {
+        "placeholder": "Halts execution when a variable's memory address is modified.",
+        "correctItem": "Watchpoints"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 187,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the final value of the array `numbers`?",
+    "code": "var numbers = [5, 2, 8, 1]\nnumbers.sort()\nprint(numbers)",
+    "answer": "[1, 2, 5, 8]"
+  },
+  {
+    "id": 188,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which operator is used to check for range containment (if a value is within a defined range)?",
+    "options": [
+      "&&",
+      "|",
+      "~=",
+      "==="
+    ],
+    "answer": "~="
+  },
+  {
+    "id": 189,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "A property observer can be defined on a lazy property in a Swift class.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 190,
+    "type": "fill-in",
+    "topic": "SwiftUI View Building",
+    "question": "In SwiftUI, creating a view that is not coupled to a specific data type but works with any conforming type is achieved through the use of ____________.",
+    "answer": "Generics"
+  },
+  {
+    "id": 191,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which protocol must a custom struct adopt to be used as a key in a Swift Dictionary?",
+    "options": [
+      "Equatable",
+      "Comparable",
+      "Codable",
+      "Hashable"
+    ],
+    "answer": "Hashable"
+  },
+  {
+    "id": 192,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "A `Text` view in SwiftUI automatically wraps its content to fit within its horizontal bounds without needing a specific modifier.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 193,
+    "type": "fill-in",
+    "topic": "Xcode Navigation & Debugging",
+    "question": "The primary tool in Xcode for analyzing and diagnosing memory leaks, energy use, and performance issues is **__** (Associate Objective 2.5).",
+    "answer": "Instruments"
+  },
+  {
+    "id": 194,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the final value of 'result' after the expression is evaluated?",
+    "code": "let tuple = (5, \"hello\")\nlet result = tuple.0\nprint(result)",
+    "answer": "5"
+  },
+  {
+    "id": 195,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the Swift feature with its primary use:",
+    "draggableItems": [
+      "Optional",
+      "Generic",
+      "Extension",
+      "Protocol"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Adding new custom behavior to an existing type.",
+        "correctItem": "Extension"
+      },
+      {
+        "placeholder": "Defining a blueprint of methods and properties that conforming types must implement.",
+        "correctItem": "Protocol"
+      },
+      {
+        "placeholder": "Handling the absence of a value (a value or nil).",
+        "correctItem": "Optional"
+      },
+      {
+        "placeholder": "Writing flexible, reusable code that works with any type (with constraints).",
+        "correctItem": "Generic"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 196,
+    "type": "multiple-choice",
+    "topic": "Planning and Design",
+    "question": "The 'Plan' phase of the design cycle should include defining the target audience and the app's key:",
+    "options": [
+      "Color palette",
+      "Pricing strategy",
+      "Key features",
+      "Server location"
+    ],
+    "answer": "Key features"
+  },
+  {
+    "id": 197,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "In Swift, a Set is an unordered collection of unique elements of the same type.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 198,
+    "type": "fill-in",
+    "topic": "SwiftUI",
+    "question": "The property wrapper used to create a two-way reference to a parent's `@State` variable is **__**.",
+    "answer": "@Binding"
+  },
+  {
+    "id": 199,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the value of 'greeting' after this code executes?",
+    "code": "let name: String? = nil\nlet greeting = \"Hello, \\(name ?? \"Guest\")\"\nprint(greeting)",
+    "answer": "Hello, Guest"
+  },
+  {
+    "id": 200,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the View Modifier with its primary function:",
+    "draggableItems": [
+      ".font()",
+      ".foregroundColor()",
+      ".clipShape()",
+      ".rotationEffect()"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Changes the size and style of text.",
+        "correctItem": ".font()"
+      },
+      {
+        "placeholder": "Changes the color of the view's content (e.g., text, icon).",
+        "correctItem": ".foregroundColor()"
+      },
+      {
+        "placeholder": "Constrains the visible outline of a view to a geometric shape.",
+        "correctItem": ".clipShape()"
+      },
+      {
+        "placeholder": "Applies a 2D rotation transformation to the view.",
+        "correctItem": ".rotationEffect()"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 201,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which Swift keyword is used to create a class that cannot be inherited from by any other class?",
+    "options": [
+      "static",
+      "open",
+      "final",
+      "private"
+    ],
+    "answer": "final"
+  },
+  {
+    "id": 202,
+    "type": "true-false",
+    "topic": "Xcode Developer Tools",
+    "question": "You can use the Xcode Canvas to preview changes to your SwiftUI View's user interface without running the app on a simulator or device.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 203,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "A function that is associated with a specific type (class, struct, or enum) is called a **__**.",
+    "answer": "method"
+  },
+  {
+    "id": 204,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the output of this loop?",
+    "code": "for i in 1...3 {\n    print(i, terminator: \"\")\n}\n",
+    "answer": "123"
+  },
+  {
+    "id": 205,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the array operation with its most common average time complexity:",
+    "draggableItems": [
+      "O(1)",
+      "O(n)"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Appending an element to the end of an Array.",
+        "correctItem": "O(1)"
+      },
+      {
+        "placeholder": "Inserting an element at index 0 of an Array.",
+        "correctItem": "O(n)"
+      },
+      {
+        "placeholder": "Accessing an element of an Array by its index.",
+        "correctItem": "O(1)"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 206,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "What is the key difference between `weak` and `unowned` references in Automatic Reference Counting (ARC)?",
+    "options": [
+      "Unowned references become nil when deallocated; weak references crash.",
+      "Weak references are optional; unowned references are non-optional.",
+      "Weak references can be used in structs; unowned references only in classes.",
+      "Unowned references can create retain cycles; weak references cannot."
+    ],
+    "answer": "Weak references are optional; unowned references are non-optional."
+  },
+  {
+    "id": 207,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "SwiftUI's views are defined as structs, making them value types that are recreated (copied) when their properties are modified.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 208,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The primary mechanism for sharing common functionality and defining required behavior between unrelated types in Swift is **__**.",
+    "answer": "protocols"
+  },
+  {
+    "id": 209,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the result of the following boolean comparison?",
+    "code": "let result = \"a\".uppercased() == \"A\"\nprint(result)",
+    "answer": "True"
+  },
+  {
+    "id": 210,
+    "type": "drag-and-drop",
+    "topic": "Xcode Navigation & Debugging",
+    "question": "Match the Xcode Navigator with its primary content:",
+    "draggableItems": [
+      "Project",
+      "Debug",
+      "Source Control",
+      "Issue"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Used to view file structure, groups, and targets.",
+        "correctItem": "Project"
+      },
+      {
+        "placeholder": "Shows call stack, variable values, and thread status during program execution.",
+        "correctItem": "Debug"
+      },
+      {
+        "placeholder": "Tracks and manages changes to code history (e.g., Git).",
+        "correctItem": "Source Control"
+      },
+      {
+        "placeholder": "Shows compiler errors, warnings, and static analysis messages.",
+        "correctItem": "Issue"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 211,
+    "type": "multiple-choice",
+    "topic": "Planning and Design",
+    "question": "What is the primary purpose of creating user personas during the 'Plan' phase of the design cycle?",
+    "options": [
+      "To choose the app's programming language.",
+      "To represent the app's target audience and guide design decisions.",
+      "To define the app's budget and timeline.",
+      "To write the marketing copy for the App Store."
+    ],
+    "answer": "To represent the app's target audience and guide design decisions."
+  },
+  {
+    "id": 212,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "You must use the `mutating` keyword for methods that change the properties of a `class` instance.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 213,
+    "type": "fill-in",
+    "topic": "SwiftUI",
+    "question": "The SwiftUI container that displays a collection of data in a scrollable, vertical row format with built-in platform styling is a **__**.",
+    "answer": "List"
+  },
+  {
+    "id": 214,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What will this code print?",
+    "code": "let numbers = [10, 20]\nprint(numbers.max()!)\n",
+    "answer": "20"
+  },
+  {
+    "id": 215,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the Swift type definition keyword with its primary use:",
+    "draggableItems": [
+      "class",
+      "struct",
+      "enum"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Used for modeling object identities, supporting inheritance, and passing by reference.",
+        "correctItem": "class"
+      },
+      {
+        "placeholder": "Used for modeling data values, complex types, and passing by value.",
+        "correctItem": "struct"
+      },
+      {
+        "placeholder": "Used for defining a type with a fixed set of related values (often with associated data).",
+        "correctItem": "enum"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 216,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "The `defer` statement ensures a block of code is executed:",
+    "options": [
+      "Before a throwing function is called.",
+      "Immediately when the defer statement is reached.",
+      "Just before execution leaves the current scope, regardless of how that exit occurs.",
+      "Only if a runtime error occurs."
+    ],
+    "answer": "Just before execution leaves the current scope, regardless of how that exit occurs."
+  },
+  {
+    "id": 217,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "The `VStack` and `HStack` views automatically provide scrolling functionality when their content exceeds the screen size.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 218,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The concept in Swift that allows a function or type to accept any type, as long as the types adhere to a specified protocol, is **__**.",
+    "answer": "Generics"
+  },
+  {
+    "id": 219,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the result of this code, which uses the ternary conditional operator?",
+    "code": "let a = 5\nlet b = 10\nlet result = a > b ? 1 : 0\nprint(result)",
+    "answer": "0"
+  },
+  {
+    "id": 220,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the SwiftUI View with its primary interactive purpose:",
+    "draggableItems": [
+      "Button",
+      "Toggle",
+      "Slider"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Initiates a specific action when tapped.",
+        "correctItem": "Button"
+      },
+      {
+        "placeholder": "Presents a boolean on/off state.",
+        "correctItem": "Toggle"
+      },
+      {
+        "placeholder": "Allows the user to select a value from a range.",
+        "correctItem": "Slider"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 221,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "What does the `inout` keyword signify for a function parameter?",
+    "options": [
+      "The parameter must be an optional type.",
+      "The parameter is immutable inside the function.",
+      "The parameter's value can be modified inside the function, and that modification will persist outside the function.",
+      "The parameter is a reference type."
+    ],
+    "answer": "The parameter's value can be modified inside the function, and that modification will persist outside the function."
+  },
+  {
+    "id": 222,
+    "type": "true-false",
+    "topic": "Xcode Developer Tools",
+    "question": "The 'Build' command in Xcode prepares the app for execution by compiling the source code and linking necessary libraries.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 223,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The protocol that allows a type to be instantiated (created) from an external representation like JSON or Property Lists is **__**.",
+    "answer": "Decodable"
+  },
+  {
+    "id": 224,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What will be the output of this pattern matching code?",
+    "code": "let score = 5\nif case 1...10 = score {\n    print(\"Valid\")\n} else {\n    print(\"Invalid\")\n}\n",
+    "answer": "Valid"
+  },
+  {
+    "id": 225,
+    "type": "drag-and-drop",
+    "topic": "Planning and Design",
+    "question": "Match the UX/UI concept with its definition:",
+    "draggableItems": [
+      "Wireframe",
+      "Mockup",
+      "User Flow"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "A basic structural blueprint (low fidelity) showing layout and elements, but not visual design.",
+        "correctItem": "Wireframe"
+      },
+      {
+        "placeholder": "A detailed visual design showing the final look, typography, and color palette.",
+        "correctItem": "Mockup"
+      },
+      {
+        "placeholder": "A sequence of steps a user takes to complete a goal in the app.",
+        "correctItem": "User Flow"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 226,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which access control level provides the greatest restriction, limiting use only to the immediate enclosing declaration?",
+    "options": [
+      "fileprivate",
+      "internal",
+      "private",
+      "public"
+    ],
+    "answer": "private"
+  },
+  {
+    "id": 227,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "The `ForEach` view is mandatory for displaying dynamic lists in SwiftUI, as opposed to using a static list of views.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 228,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The process by which a class inherits properties and methods from a parent class is called **__**.",
+    "answer": "inheritance"
+  },
+  {
+    "id": 229,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the result of the nil-coalescing operator expression?",
+    "code": "let optionalString: String? = \"Hello\"\nlet result = optionalString ?? \"Goodbye\"\nprint(result)",
+    "answer": "Hello"
+  },
+  {
+    "id": 230,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the error handling mechanism with its purpose:",
+    "draggableItems": [
+      "do-catch",
+      "try?",
+      "throw"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Executes a throwing function and provides a block for error handling.",
+        "correctItem": "do-catch"
+      },
+      {
+        "placeholder": "Indicates that a function or method is capable of producing an error.",
+        "correctItem": "throw"
+      },
+      {
+        "placeholder": "Executes a throwing function and converts the result to an optional (nil on error).",
+        "correctItem": "try?"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 231,
+    "type": "multiple-choice",
+    "topic": "SwiftUI View Building",
+    "question": "How do you pass a variable from a parent view to a child view in a way that allows the child to modify the original variable?",
+    "options": [
+      "Using the @State property wrapper.",
+      "Using the @ObservedObject property wrapper.",
+      "Using the @Binding property wrapper in the child view.",
+      "Using the @EnvironmentObject property wrapper."
+    ],
+    "answer": "Using the @Binding property wrapper in the child view."
+  },
+  {
+    "id": 232,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "Swift's `Dictionary` collection is ordered and can contain duplicate keys.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 233,
+    "type": "fill-in",
+    "topic": "Xcode Developer Tools",
+    "question": "The Xcode feature that automatically provides code suggestions as you type is called **__**.",
+    "answer": "code completion"
+  },
+  {
+    "id": 234,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the output of this function chain?",
+    "code": "let result = [1, 2, 3].map { $0 * 2 }.reduce(0, +)\nprint(result)",
+    "answer": "12"
+  },
+  {
+    "id": 235,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the list/grid container with its characteristic:",
+    "draggableItems": [
+      "List",
+      "ScrollView",
+      "LazyVGrid"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Provides cell reuse and built-in scrolling for vertical data in a row format.",
+        "correctItem": "List"
+      },
+      {
+        "placeholder": "Ideal for content that simply needs scrolling without advanced list features or lazy loading.",
+        "correctItem": "ScrollView"
+      },
+      {
+        "placeholder": "Loads items only when needed in a vertical grid format.",
+        "correctItem": "LazyVGrid"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 236,
+    "type": "multiple-choice",
+    "topic": "Planning and Design",
+    "question": "When considering app design for accessibility, which feature directly assists users with visual impairments?",
+    "options": [
+      "Haptic Feedback",
+      "Face ID",
+      "VoiceOver",
+      "Dark Mode"
+    ],
+    "answer": "VoiceOver"
+  },
+  {
+    "id": 237,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "Protocols can only be adopted by classes, not structures, in Swift.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 238,
+    "type": "fill-in",
+    "topic": "SwiftUI",
+    "question": "In SwiftUI, views are composed together using specialized functions that return a single view, a feature known as **__**.",
+    "answer": "View Builders"
+  },
+  {
+    "id": 239,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the value of `finalValue` after this ternary operation?",
+    "code": "let finalValue: Int? = (20 > 10) ? 100 : nil\nprint(finalValue)",
+    "answer": "Optional(100)"
+  },
+  {
+    "id": 240,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the protocol with its primary function:",
+    "draggableItems": [
+      "Comparable",
+      "Identifiable",
+      "Codable"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Enables an object to be ordered and sorted (e.g., using <, > operators).",
+        "correctItem": "Comparable"
+      },
+      {
+        "placeholder": "Ensures an object can be uniquely referenced in a collection (requires an `id` property).",
+        "correctItem": "Identifiable"
+      },
+      {
+        "placeholder": "Enables object encoding and decoding for persistence and data transfer.",
+        "correctItem": "Codable"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 241,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which declaration correctly defines a constant integer with explicit typing?",
+    "options": [
+      "var count = 10",
+      "let count: Int = 10",
+      "var count: Int? = 10",
+      "let count = \"10\""
+    ],
+    "answer": "let count: Int = 10"
+  },
+  {
+    "id": 242,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "A `ScrollView` is generally preferred over a `List` when the view requires standard scrolling without the row-based structure or built-in context menus.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 243,
+    "type": "fill-in",
+    "topic": "Xcode Developer Tools",
+    "question": "To change the look and feel of a view or control in the Xcode Canvas (e.g., color, padding), you use the **__** panel.",
+    "answer": "Attributes Inspector"
+  },
+  {
+    "id": 244,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What will be printed by this code?",
+    "code": "var c = 1\nc += 1\nprint(c)",
+    "answer": "2"
+  },
+  {
+    "id": 245,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the memory concept with its reference type:",
+    "draggableItems": [
+      "Strong",
+      "Weak",
+      "Unowned"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Default reference that prevents the object from being deallocated.",
+        "correctItem": "Strong"
+      },
+      {
+        "placeholder": "Reference that does not keep the object alive and can become nil.",
+        "correctItem": "Weak"
+      },
+      {
+        "placeholder": "Reference that does not keep the object alive and is guaranteed to be valid during its lifetime (non-optional).",
+        "correctItem": "Unowned"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 246,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "What is the purpose of the `private(set)` access control modifier?",
+    "options": [
+      "The property is readable only by the type itself.",
+      "The property is both readable and settable from outside the module.",
+      "The property is readable publicly but settable only within its defining source file.",
+      "The property is readable publicly but settable only by subclasses."
+    ],
+    "answer": "The property is readable publicly but settable only within its defining source file."
+  },
+  {
+    "id": 247,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "SwiftUI completely eliminates the need for any UIKit/AppKit view controllers for complex application development.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 248,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The Swift type that can represent *either* a successful value *or* a failure reason (an error) is the **__** type.",
+    "answer": "Result"
+  },
+  {
+    "id": 249,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the output of the function call, considering the external and internal parameter names?",
+    "code": "func multiply(_ a: Int, by b: Int) -> Int {\n    return a * b\n}\nprint(multiply(5, by: 4))",
+    "answer": "20"
+  },
+  {
+    "id": 250,
+    "type": "drag-and-drop",
+    "topic": "Planning and Design",
+    "question": "Match the data security concept with its definition:",
+    "draggableItems": [
+      "Encryption",
+      "Authentication",
+      "Authorization"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Verifying the claimed identity of a user (e.g., username and password).",
+        "correctItem": "Authentication"
+      },
+      {
+        "placeholder": "Granting or denying access rights to an identified user for specific resources.",
+        "correctItem": "Authorization"
+      },
+      {
+        "placeholder": "Converting data into a secret code to prevent unauthorized reading.",
+        "correctItem": "Encryption"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 251,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which operator is used to create a half-open range (up to, but not including, the final value)?",
+    "options": [
+      "...",
+      "..>",
+      "..<",
+      "|.."
+    ],
+    "answer": "..<"
+  },
+  {
+    "id": 252,
+    "type": "true-false",
+    "topic": "Xcode Developer Tools",
+    "question": "Xcode automatically generates a default memberwise initializer for all classes, even if properties are not initialized.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 253,
+    "type": "fill-in",
+    "topic": "SwiftUI",
+    "question": "To prevent a view from pushing content into the notch area or under the home indicator, views are constrained to the **__** property.",
+    "answer": "safe area"
+  },
+  {
+    "id": 254,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the output, assuming the optional contains a value?",
+    "code": "let optional: Int? = 5\nprint(optional!)\n",
+    "answer": "5"
+  },
+  {
+    "id": 255,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the SwiftUI View with its primary interactive purpose:",
+    "draggableItems": [
+      "TextEditor",
+      "Stepper",
+      "ProgressView"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Allows multi-line, scrollable text input from the user.",
+        "correctItem": "TextEditor"
+      },
+      {
+        "placeholder": "Provides control for incrementing/decrementing a numeric value.",
+        "correctItem": "Stepper"
+      },
+      {
+        "placeholder": "Displays an ongoing or indeterminate task status.",
+        "correctItem": "ProgressView"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 256,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "The primary use of the `Typealias` keyword is to:",
+    "options": [
+      "Define an alternative name for an existing type.",
+      "Create a new value type similar to a struct.",
+      "Ensure a property is stored lazily.",
+      "Limit the access control of a type."
+    ],
+    "answer": "Define an alternative name for an existing type."
+  },
+  {
+    "id": 257,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "A `VStack` tries to fill all available vertical space by default, expanding to the full width and height of its parent container.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 258,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "When iterating through a `Dictionary` using a `for-in` loop, the iteration produces a sequence of **__** values, each containing a key and a value.",
+    "answer": "tuple"
+  },
+  {
+    "id": 259,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the printed value of the array's first element?",
+    "code": "let names = [\"Alice\", \"Bob\", \"Charlie\"]\nprint(names.first!)",
+    "answer": "Alice"
+  },
+  {
+    "id": 260,
+    "type": "drag-and-drop",
+    "topic": "Xcode Navigation & Debugging",
+    "question": "Match the Xcode area with its purpose:",
+    "draggableItems": [
+      "Editor",
+      "Navigator",
+      "Utility",
+      "Console"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Displays the source code or visual UI (Canvas/Interface Builder).",
+        "correctItem": "Editor"
+      },
+      {
+        "placeholder": "Used to browse files, symbols, breakpoints, and history.",
+        "correctItem": "Navigator"
+      },
+      {
+        "placeholder": "Provides inspectors for view properties, attributes, and size.",
+        "correctItem": "Utility"
+      },
+      {
+        "placeholder": "Shows logs, debug output, and runtime errors.",
+        "correctItem": "Console"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 261,
+    "type": "multiple-choice",
+    "topic": "Planning and Design",
+    "question": "Which part of the app planning process should directly address potential user friction points (Associate Objective 1.1)?",
+    "options": [
+      "Analyzing the user experience (UX) and user flows.",
+      "Determining the app's version number.",
+      "Choosing a cloud storage provider.",
+      "Minimizing the app's download size."
+    ],
+    "answer": "Analyzing the user experience (UX) and user flows."
+  },
+  {
+    "id": 262,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "Swift's `Character` type is guaranteed to hold a single Unicode scalar value.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 263,
+    "type": "fill-in",
+    "topic": "SwiftUI",
+    "question": "The SwiftUI property wrapper that is used to listen to changes on a model object that *is not* owned by the current view is **__**.",
+    "answer": "@ObservedObject"
+  },
+  {
+    "id": 264,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What will be printed to the console (assume each print is on a new line)?",
+    "code": "let names = [\"Max\", \"Leo\", \"Ben\"]\nnames.forEach { print($0) }\n",
+    "answer": "Max\nLeo\nBen"
+  },
+  {
+    "id": 265,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the Swift closure feature with the correct description:",
+    "draggableItems": [
+      "Trailing Closures",
+      "Escaping Closures",
+      "Nonescaping Closures"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "A closure passed as the final function argument, written outside the parentheses.",
+        "correctItem": "Trailing Closures"
+      },
+      {
+        "placeholder": "A closure that is called after the function has returned, requiring special memory management.",
+        "correctItem": "Escaping Closures"
+      },
+      {
+        "placeholder": "A closure that is executed before the function returns.",
+        "correctItem": "Nonescaping Closures"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 266,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "When defining a static property in a struct, the memory for that property is allocated:",
+    "options": [
+      "On the heap for each instance of the struct.",
+      "Once, for the type itself, not for each instance.",
+      "Only when the entire struct is deallocated.",
+      "On the stack for each instance of the struct."
+    ],
+    "answer": "Once, for the type itself, not for each instance."
+  },
+  {
+    "id": 267,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "When using a `Text` view, the `.lineLimit(1)` modifier is the only way to prevent the text from wrapping to a new line.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 268,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "To define a custom implementation for an existing operator like `+` for a custom type, you use **__**.",
+    "answer": "Operator Overloading"
+  },
+  {
+    "id": 269,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the value of `finalString` after this array operation?",
+    "code": "let finalString = [\"Swift\", \"is\", \"fun\"].joined(separator: \" \")\nprint(finalString)",
+    "answer": "Swift is fun"
+  },
+  {
+    "id": 270,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the SwiftUI container with its primary purpose:",
+    "draggableItems": [
+      "Group",
+      "Form",
+      "Section"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "A container used for applying common modifiers or combining more than 10 top-level views.",
+        "correctItem": "Group"
+      },
+      {
+        "placeholder": "A container that displays content in platform-appropriate rows, often used for settings screens.",
+        "correctItem": "Form"
+      },
+      {
+        "placeholder": "A sub-container used to visually and semantically group related content within a List or Form.",
+        "correctItem": "Section"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 271,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which keyword is used in a protocol definition to require conforming structs/enums to use the `mutating` keyword for a specific method implementation?",
+    "options": [
+      "static",
+      "final",
+      "mutating",
+      "class"
+    ],
+    "answer": "mutating"
+  },
+  {
+    "id": 272,
+    "type": "true-false",
+    "topic": "Xcode Developer Tools",
+    "question": "The `Product > Clean Build Folder` command is used to remove all compiled products and intermediate files, often resolving strange or outdated build errors.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 273,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The special name given to a parameter in a closure that represents the first (or next) argument, allowing for brevity, is **__**.",
+    "answer": "$0"
+  },
+  {
+    "id": 274,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What will be printed by this reduce operation?",
+    "code": "let numbers = [1, 2, 3]\nlet result = numbers.reduce(10, +)\nprint(result)",
+    "answer": "16"
+  },
+  {
+    "id": 275,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the concept with the keyword:",
+    "draggableItems": [
+      "static",
+      "class",
+      "protocol",
+      "extension"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Type-level functionality for structs and enumerations.",
+        "correctItem": "static"
+      },
+      {
+        "placeholder": "Type-level functionality for classes that can be overridden by subclasses.",
+        "correctItem": "class"
+      },
+      {
+        "placeholder": "A blueprint of methods and properties for types to conform to.",
+        "correctItem": "protocol"
+      },
+      {
+        "placeholder": "Adding new functionality to an existing type (method, computed property, initializer).",
+        "correctItem": "extension"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 276,
+    "type": "multiple-choice",
+    "topic": "Planning and Design",
+    "question": "In the 'Evaluate' phase of the design cycle, what is the most direct way to gather qualitative (detailed opinion) user feedback?",
+    "options": [
+      "Analyzing analytics and download counts.",
+      "Checking the app's performance metrics.",
+      "Conducting interviews or usability testing.",
+      "Reviewing compiler warnings."
+    ],
+    "answer": "Conducting interviews or usability testing."
+  },
+  {
+    "id": 277,
+    "type": "true-false",
+    "topic": "Swift Language Usage",
+    "question": "The `String` type in Swift automatically handles multi-byte Unicode characters and emojis without requiring special encoding or libraries.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 278,
+    "type": "fill-in",
+    "topic": "SwiftUI",
+    "question": "To prevent a SwiftUI interactive control like a `Button` from being active and tappable, you apply the **__** modifier.",
+    "answer": ".disabled(true)"
+  },
+  {
+    "id": 279,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the output of this error handling code, using `try?`?",
+    "code": "enum E: Error { case fail }\nfunc t() throws { throw E.fail }\nlet r = try? t()\nprint(r == nil)",
+    "answer": "True"
+  },
+  {
+    "id": 280,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the View Modifier with its effect on layout:",
+    "draggableItems": [
+      ".padding()",
+      ".frame(maxWidth: .infinity)",
+      ".aspectRatio(1.0, contentMode: .fit)"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Adds space between the view and its surrounding container.",
+        "correctItem": ".padding()"
+      },
+      {
+        "placeholder": "Forces the view to take up all available horizontal space in its container.",
+        "correctItem": ".frame(maxWidth: .infinity)"
+      },
+      {
+        "placeholder": "Sets the height/width ratio to maintain a proportional size.",
+        "correctItem": ".aspectRatio(1.0, contentMode: .fit)"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 281,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "Which feature of Swift allows a property to hold a value that is not initialized until the very first time it is accessed?",
+    "options": [
+      "optional properties",
+      "computed properties",
+      "lazy stored properties",
+      "property observers"
+    ],
+    "answer": "lazy stored properties"
+  },
+  {
+    "id": 282,
+    "type": "true-false",
+    "topic": "Xcode Developer Tools",
+    "question": "The 'Jump Bar' in the Xcode Editor is used to quickly navigate between different files and functions within the currently active file.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 283,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "When defining a recursive function, it is essential to include a **__** to prevent infinite execution.",
+    "answer": "base case"
+  },
+  {
+    "id": 284,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the result of this comparison?",
+    "code": "let result = (\"A\" > \"a\")\nprint(result)",
+    "answer": "False"
+  },
+  {
+    "id": 285,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the type system concept with its example:",
+    "draggableItems": [
+      "Type Inference",
+      "Optional Type",
+      "Non-optional Type"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "The compiler determines the type: `let x = 5`",
+        "correctItem": "Type Inference"
+      },
+      {
+        "placeholder": "Explicitly defined type that can hold a value or nil: `var name: String?`",
+        "correctItem": "Optional Type"
+      },
+      {
+        "placeholder": "Explicitly defined type that must always contain a value: `let count: Int`",
+        "correctItem": "Non-optional Type"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 286,
+    "type": "multiple-choice",
+    "topic": "Planning and Design",
+    "question": "The **Minimum Viable Product (MVP)** is defined as the product with:",
+    "options": [
+      "The largest budget and development team.",
+      "The smallest set of features needed to satisfy early adopters and gather feedback.",
+      "A complete set of all planned features.",
+      "No monetization strategy."
+    ],
+    "answer": "The smallest set of features needed to satisfy early adopters and gather feedback."
+  },
+  {
+    "id": 287,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "Using `Group` or `Section` in a `List` affects the way the data is loaded for performance.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": 288,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The keyword that defines a property or method that belongs to the *type itself*, rather than to any instance of that type, is **__**.",
+    "answer": "static"
+  },
+  {
+    "id": 289,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What will be the value of `finalCount`?",
+    "code": "var array = [1, 2, 3]\narray.removeAll()\nlet finalCount = array.count\nprint(finalCount)",
+    "answer": "0"
+  },
+  {
+    "id": 290,
+    "type": "drag-and-drop",
+    "topic": "SwiftUI View Building",
+    "question": "Match the color/image system concept with its definition:",
+    "draggableItems": [
+      "Asset Catalog",
+      "System Image",
+      "System Color"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "A location in Xcode for storing custom images, app icons, and named colors.",
+        "correctItem": "Asset Catalog"
+      },
+      {
+        "placeholder": "A reusable vector image provided by the operating system (e.g., 'heart', 'gear').",
+        "correctItem": "System Image"
+      },
+      {
+        "placeholder": "A reusable color defined by the system that adapts automatically to Dark Mode.",
+        "correctItem": "System Color"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 291,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "To create an initializer for a class or struct that might fail to create an instance and therefore return `nil`, which keyword must be used?",
+    "options": [
+      "init!",
+      "init?",
+      "deinit",
+      "failable"
+    ],
+    "answer": "init?"
+  },
+  {
+    "id": 292,
+    "type": "true-false",
+    "topic": "Xcode Developer Tools",
+    "question": "Xcode's Assistant Editor is used to display two related files (like a View and its Preview or a header file and its implementation) side-by-side.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 293,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "When a function parameter is defined without an explicit external name (using `_`), the parameter's local name is used for both the local scope and the **__** (Certified User Objective 3.4.1).",
+    "answer": "argument label"
+  },
+  {
+    "id": 294,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the final value of 'name' retrieved from the tuple?",
+    "code": "let tuple = (name: \"Jane\", age: 25)\nlet name = tuple.name\nprint(name)",
+    "answer": "Jane"
+  },
+  {
+    "id": 295,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the method declaration keyword for value types with its reference to `self` modification:",
+    "draggableItems": [
+      "func",
+      "mutating func"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "Can change the stored properties of a struct/enum instance (`self`).",
+        "correctItem": "mutating func"
+      },
+      {
+        "placeholder": "Cannot change the stored properties of a struct/enum instance.",
+        "correctItem": "func"
+      }
+    ],
+    "answer": {}
+  },
+  {
+    "id": 296,
+    "type": "multiple-choice",
+    "topic": "Swift Language Usage",
+    "question": "When working with two related but distinct classes, the relationship where one class instance is defined as a property of another is known as:",
+    "options": [
+      "Inheritance",
+      "Polymorphism",
+      "Protocol Conformance",
+      "Composition"
+    ],
+    "answer": "Composition"
+  },
+  {
+    "id": 297,
+    "type": "true-false",
+    "topic": "SwiftUI",
+    "question": "The SwiftUI `Binding` property wrapper itself is a non-optional structure, meaning you do not typically use optional unwrapping on the binding property.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 298,
+    "type": "fill-in",
+    "topic": "Swift Language Usage",
+    "question": "The ability of an object to respond differently to the same message (method call) based on its type is called **__**.",
+    "answer": "Polymorphism"
+  },
+  {
+    "id": 299,
+    "type": "code-analysis",
+    "topic": "Swift Language Usage",
+    "question": "What is the final value of 'result'?",
+    "code": "let result = [1: \"a\", 2: \"b\"].isEmpty\nprint(result)",
+    "answer": "False"
+  },
+  {
+    "id": 300,
+    "type": "drag-and-drop",
+    "topic": "Swift Language Usage",
+    "question": "Match the Swift numeric type with its description:",
+    "draggableItems": [
+      "Int",
+      "Int8",
+      "UInt"
+    ],
+    "dropZones": [
+      {
+        "placeholder": "The standard platform integer (usually 64-bit on modern devices).",
+        "correctItem": "Int"
+      },
+      {
+        "placeholder": "An 8-bit signed integer (range -128 to 127).",
+        "correctItem": "Int8"
+      },
+      {
+        "placeholder": "An unsigned integer type (cannot store negative values).",
+        "correctItem": "UInt"
+      }
+    ],
+    "answer": {}
+  }
+]
