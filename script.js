@@ -92,8 +92,22 @@ async function loadAndStartExam() {
     try {
         showLoadingState();
         
-        const response = await fetch('questions.json');
-        questions = await response.json();
+        // Use the raw GitHub URL (this is what works for GitHub Pages)
+        const response = await fetch('https://raw.githubusercontent.com/iantdzingira/MCRI-ExamPrep/main/questions.json');
+        
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
+        const text = await response.text();
+        
+        // Check if we got an HTML page instead of JSON (GitHub 404)
+        if (text.trim().startsWith('<!DOCTYPE') || text.trim().startsWith('<html')) {
+            throw new Error('Received HTML instead of JSON. The questions.json file might not exist.');
+        }
+        
+        // Parse the JSON
+        questions = JSON.parse(text);
         
         if (!questions || questions.length === 0) {
             throw new Error('No questions found in the database');
@@ -123,11 +137,13 @@ async function loadAndStartExam() {
     } catch (error) {
         console.error('Error loading exam:', error);
         showErrorModal(
-            `Unable to load exam questions. Please check:<br><br>
-            1. The questions.json file exists<br>
-            2. The JSON format is correct<br>
-            3. Your internet connection<br><br>
-            <strong>Error:</strong> ${error.message}`,
+            `Unable to load exam questions. <br><br>
+            <strong>Error:</strong> ${error.message}<br><br>
+            <strong>Quick Fix:</strong><br>
+            1. Go to <a href="https://raw.githubusercontent.com/iantdzingira/MCRI-ExamPrep/main/questions.json" 
+                       target="_blank" style="color: #ff7b00;">this link</a><br>
+            2. Make sure it shows JSON content, not a 404 page<br>
+            3. If it's a 404, upload your questions.json file to GitHub`,
             'Exam Loading Failed'
         );
     }
