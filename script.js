@@ -391,7 +391,6 @@ function renderDragDropQuestion(question) {
         const itemHtml = droppedItem ? 
             `<div class="draggable-item" draggable="true" id="drag-${droppedItem}" data-item="${droppedItem}">
                 ${droppedItem}
-                <span class="drag-hint">Drag</span>
             </div>` : '';
         
         if (droppedItem) {
@@ -403,7 +402,7 @@ function renderDragDropQuestion(question) {
 
         zonesHtml += `
             <div class="drop-zone-wrapper">
-                <p><strong>${zone.placeholder}</strong></p>
+                <p>${zone.placeholder}</p>
                 <div class="drop-zone" id="zone-${index}" data-correct-item="${zone.correctItem}">
                     ${itemHtml}
                 </div>
@@ -416,7 +415,6 @@ function renderDragDropQuestion(question) {
         itemsHtml += `
             <div class="draggable-item" draggable="true" id="drag-${item}" data-item="${item}">
                 ${item}
-                <span class="drag-hint">Drag</span>
             </div>
         `;
     });
@@ -424,8 +422,7 @@ function renderDragDropQuestion(question) {
     return `
         <div class="drag-drop-container">
             <div class="drag-drop-instruction">
-                <i class="fas fa-hand-point-up"></i>
-                Drag items from the pool below to the correct drop zones
+                Drag items from the pool to the matching drop zones
             </div>
             <div class="draggable-items-container">
                 ${itemsHtml}
@@ -437,7 +434,6 @@ function renderDragDropQuestion(question) {
     `;
 }
 
-// ===== DRAG AND DROP =====
 function setupDragAndDrop() {
     const draggables = document.querySelectorAll('.draggable-item');
     const dropZones = document.querySelectorAll('.drop-zone');

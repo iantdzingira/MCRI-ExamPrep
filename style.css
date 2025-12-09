@@ -2028,3 +2028,51 @@ body {
         break-inside: avoid;
     }
 }
+.drag-instruction {
+    color: #ff7b00;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.draggable-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+    padding: 15px;
+    background: #fff9f3;
+    border-radius: 8px;
+}
+
+.draggable-item {
+    padding: 10px 15px;
+    background: #ff7b00;
+    color: white;
+    border-radius: 6px;
+    cursor: move;
+    font-weight: 600;
+}
+
+.draggable-item:hover {
+    background: #ff6b00;
+}
+
+.drop-zones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.drop-zone-wrapper p {
+    font-weight: 600;
+    color: #ff7b00;
+    margin-bottom: 10px;
+}
+
+.drop-zone {
+    min-height: 60px;
+    border: 2px dashed #ffa94d;
+    border-radius: 6px;
+    padding: 10px;
+}
