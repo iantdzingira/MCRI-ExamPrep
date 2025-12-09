@@ -709,7 +709,7 @@
         "topic": "Swift Language Usage",
         "question": "What does this Swift pattern matching code output?",
         "code": "let point = (2, 3)\nswitch point {\ncase (0, 0):\n    print(\"Origin\")\ncase (_, 0):\n    print(\"On x-axis\")\ncase (0, _):\n    print(\"On y-axis\")\ncase (-2...2, -2...2):\n    print(\"Inside 5x5 square\")\ndefault:\n    print(\"Somewhere else\")\n}",
-        "answer": "Inside 5x5 square"
+        "answer": "Somewhere else"
     },
     {
         "id": 84,
