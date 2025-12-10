@@ -1,276 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCRI ExamPrep Platform</title>
 
     <link rel="icon" type="image/png" href="/my-favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/my-favicon/favicon.svg" />
     <link rel="shortcut icon" href="/my-favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/my-favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="/my-favicon/site.webmanifest" />
-
-    <meta name="theme-color" content="#FF6600" /> 
     <meta name="apple-mobile-web-app-title" content="ExamPrep" />
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="manifest" href="/my-favicon/site.webmanifest" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCRI ExamPrep Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    
-        <div id="welcome-screen" class="welcome-screen">
-        <div class="welcome-container">
-            <div class="welcome-header">
-                <div class="logo-container">
-                    <div class="logo">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h1>MCRI ExamPrep</h1>
-                    </div>
-                    <p class="welcome-subtitle">Swift App Development Certification Practice Platform</p>
-                </div>
-            </div>
-            
-            <div class="welcome-content">
-                <div class="exam-info">
-                    <h2><i class="fas fa-info-circle"></i> Exam Information</h2>
-                    
-                    <div class="info-card">
-                        <div class="info-card-header">
-                            <i class="fas fa-file-alt"></i>
-                            <h3>Exam Format</h3>
-                        </div>
-                        <ul>
-                            <li><strong>Total Questions:</strong> <span id="total-questions">40</span></li>
-                            <li><strong>Time Limit:</strong> <span id="time-limit">45 minutes</span></li>
-                            <li><strong>Passing Score:</strong> <span id="passing-score">80%</span></li>
-                            <li><strong>Question Types:</strong> Multiple Choice, True/False, Fill-in, Code Analysis, Drag & Drop</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="info-card">
-                        <div class="info-card-header">
-                            <i class="fas fa-book"></i>
-                            <h3>Topics Covered</h3>
-                        </div>
-                        <ul>
-                            <li>Xcode Developer Tools</li>
-                            <li>Swift Programming Language</li>
-                            <li>SwiftUI Development</li>
-                            <li>Debugging & Testing</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="info-card">
-                        <div class="info-card-header">
-                            <i class="fas fa-clipboard-check"></i>
-                            <h3>Instructions</h3>
-                        </div>
-                        <ul>
-                            <li>Complete all questions before time expires</li>
-                            <li>Mark questions for review if unsure</li>
-                            <li>Review marked questions before final submission</li>
-                            <li>Detailed performance analysis provided after exam</li>
-                            <li>Results saved for future reference</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="registration-form-container">
-                    <div class="form-header">
-                        <h2><i class="fas fa-play-circle"></i> Start Your Exam</h2>
-                        <p>Enter your details to begin the practice exam</p>
-                    </div>
-                    
-                    <form id="exam-registration" class="registration-form">
-                        <div class="form-group">
-                            <label for="student-name">
-                                <i class="fas fa-user"></i> Your Full Name
-                            </label>
-                            <input type="text" 
-                                   id="student-name" 
-                                   placeholder="Enter your full name" 
-                                   required
-                                   autocomplete="name">
-                            <small>This name will appear on your exam report</small>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="student-id">
-                                <i class="fas fa-id-card"></i> Student ID (Optional)
-                            </label>
-                            <input type="text" 
-                                   id="student-id" 
-                                   placeholder="Enter your student ID"
-                                   autocomplete="username">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="exam-type">
-                                <i class="fas fa-graduation-cap"></i> Exam Type
-                            </label>
-                            <select id="exam-type">
-                                <option value="practice">Practice Exam</option>
-                                <option value="certified-user">Swift Certified User</option>
-                                <option value="associate">Swift Associate</option>
-                                <option value="comprehensive">Comprehensive Exam</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="question-count">
-                                <i class="fas fa-question-circle"></i> Number of Questions
-                            </label>
-                            <select id="question-count">
-                                <option value="20">20 Questions (Quick Practice)</option>
-                                <option value="40" selected>40 Questions (Standard Exam)</option>
-                                <option value="60">60 Questions (Extended Practice)</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group checkbox-group">
-                            <input type="checkbox" id="agree-terms" required>
-                            <label for="agree-terms">
-                                <i class="fas fa-check-circle"></i>
-                                I agree to take this exam under honor code conditions and confirm that I will complete it without external assistance.
-                            </label>
-                        </div>
-                        
-                        <div class="form-actions">
-                            <button type="submit" class="start-exam-button">
-                                <i class="fas fa-play"></i> Start Exam
-                            </button>
-                            <button type="button" class="demo-button" onclick="loadDemoExam()">
-                                <i class="fas fa-eye"></i> View Demo
-                            </button>
-                        </div>
-                    </form>
-                    
-                    <div class="exam-stats">
-                        <div class="stat-item">
-                            <i class="fas fa-users"></i>
-                            <div>
-                                <span class="stat-number">1,250+</span>
-                                <span class="stat-label">Students Trained</span>
-                            </div>
-                        </div>
-                        <div class="stat-item">
-                            <i class="fas fa-chart-line"></i>
-                            <div>
-                                <span class="stat-number">92%</span>
-                                <span class="stat-label">Pass Rate</span>
-                            </div>
-                        </div>
-                        <div class="stat-item">
-                            <i class="fas fa-clock"></i>
-                            <div>
-                                <span class="stat-number">45 min</span>
-                                <span class="stat-label">Average Time</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="welcome-footer">
-                <p>MCRI ExamPrep Platform v2.0 &copy; 2024 | Swift App Development Certification</p>
-                <div class="footer-links">
-                    <a href="#"><i class="fas fa-question-circle"></i> Help</a>
-                    <a href="#"><i class="fas fa-shield-alt"></i> Privacy</a>
-                    <a href="#"><i class="fas fa-file-contract"></i> Terms</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="welcome-screen">
+        <div class="welcome-container">
+            <div class="welcome-header">
+                <div class="logo-container">
+                    <div class="logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h1>MCRI ExamPrep</h1>
+                    </div>
+                    <p class="welcome-subtitle">Swift App Development Certification Practice Platform</p>
+                </div>
+            </div>
+            
+            <div class="welcome-content">
+                <div class="exam-info">
+                    <h2><i class="fas fa-info-circle"></i> Exam Information</h2>
+                    
+                    <div class="info-card">
+                        <div class="info-card-header">
+                            <i class="fas fa-file-alt"></i>
+                            <h3>Exam Format</h3>
+                        </div>
+                        <ul>
+                            <li><strong>Total Questions:</strong> <span id="total-questions">40</span></li>
+                            <li><strong>Time Limit:</strong> <span id="time-limit">45 minutes</span></li>
+                            <li><strong>Passing Score:</strong> <span id="passing-score">80%</span></li>
+                            <li><strong>Question Types:</strong> Multiple Choice, True/False, Fill-in, Code Analysis, Drag & Drop</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-card-header">
+                            <i class="fas fa-book"></i>
+                            <h3>Topics Covered</h3>
+                        </div>
+                        <ul>
+                            <li>Xcode Developer Tools</li>
+                            <li>Swift Programming Language</li>
+                            <li>SwiftUI Development</li>
+                            <li>Debugging & Testing</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-card-header">
+                            <i class="fas fa-clipboard-check"></i>
+                            <h3>Instructions</h3>
+                        </div>
+                        <ul>
+                            <li>Complete all questions before time expires</li>
+                            <li>Mark questions for review if unsure</li>
+                            <li>Review marked questions before final submission</li>
+                            <li>Detailed performance analysis provided after exam</li>
+                            <li>Results saved for future reference</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="registration-form-container">
+                    <div class="form-header">
+                        <h2><i class="fas fa-play-circle"></i> Start Your Exam</h2>
+                        <p>Enter your details to begin the practice exam</p>
+                    </div>
+                    
+                    <form id="exam-registration" class="registration-form">
+                        <div class="form-group">
+                            <label for="student-name">
+                                <i class="fas fa-user"></i> Your Full Name
+                            </label>
+                            <input type="text" 
+                                   id="student-name" 
+                                   placeholder="Enter your full name" 
+                                   required
+                                   autocomplete="name">
+                            <small>This name will appear on your exam report</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="student-id">
+                                <i class="fas fa-id-card"></i> Student ID (Optional)
+                            </label>
+                            <input type="text" 
+                                   id="student-id" 
+                                   placeholder="Enter your student ID"
+                                   autocomplete="username">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="exam-type">
+                                <i class="fas fa-graduation-cap"></i> Exam Type
+                            </label>
+                            <select id="exam-type">
+                                <option value="practice">Practice Exam</option>
+                                <option value="certified-user">Swift Certified User</option>
+                                <option value="associate">Swift Associate</option>
+                                <option value="comprehensive">Comprehensive Exam</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="question-count">
+                                <i class="fas fa-question-circle"></i> Number of Questions
+                            </label>
+                            <select id="question-count">
+                                <option value="20">20 Questions (Quick Practice)</option>
+                                <option value="40" selected>40 Questions (Standard Exam)</option>
+                                <option value="60">60 Questions (Extended Practice)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="agree-terms" required>
+                            <label for="agree-terms">
+                                <i class="fas fa-check-circle"></i>
+                                I agree to take this exam under honor code conditions and confirm that I will complete it without external assistance.
+                            </label>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="start-exam-button">
+                                <i class="fas fa-play"></i> Start Exam
+                            </button>
+                            <button type="button" class="demo-button" onclick="loadDemoExam()">
+                                <i class="fas fa-eye"></i> View Demo
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <div class="exam-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <span class="stat-number">1,250+</span>
+                                <span class="stat-label">Students Trained</span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <span class="stat-number">92%</span>
+                                <span class="stat-label">Pass Rate</span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <span class="stat-number">45 min</span>
+                                <span class="stat-label">Average Time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="welcome-footer">
+                <p>MCRI ExamPrep Platform v2.0 &copy; 2024 | Swift App Development Certification</p>
+                <div class="footer-links">
+                    <a href="#"><i class="fas fa-question-circle"></i> Help</a>
+                    <a href="#"><i class="fas fa-shield-alt"></i> Privacy</a>
+                    <a href="#"><i class="fas fa-file-contract"></i> Terms</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <div id="exam-container" class="exam-container" style="display: none;">
-        <div class="exam-header">
-            <div class="header-left">
-                <div class="student-info">
-                    <div class="student-name">
-                        <i class="fas fa-user-graduate"></i>
-                        <span id="student-name-display">Candidate Name</span>
-                    </div>
-                    <div class="exam-type-display">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span id="exam-type-display">Practice Exam</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="header-center">
-                <h1 class="exam-title">
-                    <i class="fas fa-laptop-code"></i>
-                    MCRI ExamPrep
-                </h1>
-                <div class="progress-indicator">
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="exam-progress"></div>
-                    </div>
-                    <span class="progress-text" id="progress-text">0/40</span>
-                </div>
-            </div>
-            
-            <div class="header-right">
-                <div id="timer-display" class="timer">
-                    <i class="fas fa-clock"></i>
-                    <span class="timer-text">Time: </span>
-                    <span class="timer-value" id="timer-value">45:00</span>
-                </div>
-                <div class="question-count">
-                    <i class="fas fa-list-ol"></i>
-                    <span id="current-question">1</span> / <span id="total-questions-display">40</span>
-                </div>
-            </div>
-        </div>
-        
-        <div class="exam-body">
-            <div id="question-area" class="question-area">
-                <div class="loading-state">
-                    <div class="loading-spinner"></div>
-                    <p>Loading exam questions...</p>
-                </div>
-            </div>
-            
-            <div id="navigation-area" class="navigation-area">
-                <div class="nav-left">
-                    <button id="previous-button" class="nav-button prev-button">
-                        <i class="fas fa-arrow-left"></i> Previous
-                    </button>
-                </div>
-                
-                <div class="nav-center">
-                    <button id="mark-button" class="nav-button mark-button">
-                        <i class="far fa-bookmark"></i> Mark for Review
-                    </button>
-                    <button id="review-button" class="nav-button review-button" onclick="showReviewSection()">
-                        <i class="fas fa-list"></i> Review
-                    </button>
-                </div>
-                
-                <div class="nav-right">
-                    <button id="next-button" class="nav-button next-button">
-                        Next <i class="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-            
-            <div id="quick-nav" class="quick-navigation">
-                <div class="quick-nav-header">
-                    <h4><i class="fas fa-bolt"></i> Quick Navigation</h4>
-                    <span class="status-summary">
-                        <span class="answered-count">0</span> Answered | 
-                        <span class="marked-count">0</span> Marked
-                    </span>
-                </div>
-                <div class="question-grid" id="question-grid">
-                                    </div>
-            </div>
-        </div>
-    </div>
+    <!-- Exam Container (Initially Hidden) -->
+    <div id="exam-container" class="exam-container" style="display: none;">
+        <div class="exam-header">
+            <div class="header-left">
+                <div class="student-info">
+                    <div class="student-name">
+                        <i class="fas fa-user-graduate"></i>
+                        <span id="student-name-display">Candidate Name</span>
+                    </div>
+                    <div class="exam-type-display">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span id="exam-type-display">Practice Exam</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header-center">
+                <h1 class="exam-title">
+                    <i class="fas fa-laptop-code"></i>
+                    MCRI ExamPrep
+                </h1>
+                <div class="progress-indicator">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="exam-progress"></div>
+                    </div>
+                    <span class="progress-text" id="progress-text">0/40</span>
+                </div>
+            </div>
+            
+            <div class="header-right">
+                <div id="timer-display" class="timer">
+                    <i class="fas fa-clock"></i>
+                    <span class="timer-text">Time: </span>
+                    <span class="timer-value" id="timer-value">45:00</span>
+                </div>
+                <div class="question-count">
+                    <i class="fas fa-list-ol"></i>
+                    <span id="current-question">1</span> / <span id="total-questions-display">40</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="exam-body">
+            <div id="question-area" class="question-area">
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p>Loading exam questions...</p>
+                </div>
+            </div>
+            
+            <div id="navigation-area" class="navigation-area">
+                <div class="nav-left">
+                    <button id="previous-button" class="nav-button prev-button">
+                        <i class="fas fa-arrow-left"></i> Previous
+                    </button>
+                </div>
+                
+                <div class="nav-center">
+                    <button id="mark-button" class="nav-button mark-button">
+                        <i class="far fa-bookmark"></i> Mark for Review
+                    </button>
+                    <button id="review-button" class="nav-button review-button" onclick="showReviewSection()">
+                        <i class="fas fa-list"></i> Review
+                    </button>
+                </div>
+                
+                <div class="nav-right">
+                    <button id="next-button" class="nav-button next-button">
+                        Next <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div id="quick-nav" class="quick-navigation">
+                <div class="quick-nav-header">
+                    <h4><i class="fas fa-bolt"></i> Quick Navigation</h4>
+                    <span class="status-summary">
+                        <span class="answered-count">0</span> Answered | 
+                        <span class="marked-count">0</span> Marked
+                    </span>
+                </div>
+                <div class="question-grid" id="question-grid">
+                    <!-- Question numbers will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <div id="modal-container"></div>
+    <!-- Modal Container -->
+    <div id="modal-container"></div>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
